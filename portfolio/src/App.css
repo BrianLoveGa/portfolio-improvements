@@ -3,3 +3,16 @@
 }
 
 
+a{
+  padding:10px;
+  margin:5%;
+  background-color: pink;
+  text-decoration: none;
+  border-radius: 60px;
+  font-size: 30px;
+}
+
+
+a:hover{
+  background-color: red;
+}
