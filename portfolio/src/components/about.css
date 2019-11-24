@@ -18,13 +18,11 @@
   background-color: var(--darkblue);
   color: var(--lightgray);
   text-align: center;
-  
 }
 
 .intro {
   background-color: rgb(22, 22, 22);
   color: rgb(197, 190, 190);
-  padding: 40px 45px 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -32,13 +30,14 @@
   height: 100%;
 }
 .myface {
-  max-width: 400px;
-  max-height: 850px;
-  min-width: 200px;
+  max-width: 450px;
+  margin: 5%;
+  padding: 10px;
 }
 .h2top {
   font-size: 60px;
   color: white;
+  margin: 25% auto 10%;
 }
 .responsive {
   width: 100%;
@@ -47,33 +46,41 @@
 
 .intro1 {
   font-size: 27px;
+  text-align: center;
+  width: 49%;
 }
 
 .h2top,
 .intro1 {
-  width: 40%;
-  margin: 1% 2% 8% 12%;
-  
+  text-align: center;
+}
+
+@media screen and (max-width: 1160px) {
+  .intro1 {
+    width: 90%;
+    margin:0 auto;
+  }
 }
 
 @media screen and (max-width: 980px) {
   .h2top,
   .intro1 {
     width: 75%;
-    margin: 3%;
-    padding:5px;
+    margin: 3% 12%;
+    padding: 5px;
   }
 
   .h2top {
     font-size: 35px;
-    color:rgb(153, 13, 36);
   }
   .intro1 {
     font-size: 22px;
-    color:rgb(153, 13, 36);
   }
 }
 
-@media screen and (max-width: 500px) {
- 
+@media screen and (max-width: 630px) {
+  .myface {
+    max-width: 300px;
+    padding: 10px 65px;
+  }
 }
