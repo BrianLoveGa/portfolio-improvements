@@ -6,7 +6,7 @@ export default class BizCard extends Component {
   render() {
     return (
       <div className="biz">
-        <h1>Brian's biz card digital here</h1>
+        <h1>My Digital Card</h1>
         <h1>resume download</h1>
         <h2>linkedin</h2>
         <h2>facebook</h2>
