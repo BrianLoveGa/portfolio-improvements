@@ -16,27 +16,46 @@
 
 svg{
   padding:0 0 0 25px;
+  color:var(--darkblue);
 }
 
 .space{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  color:black;
+  width:250px;
 }
 .biz{
     background-color: var(--lightblue);
+    padding:3%;
+    display:flex;
+    flex-direction: column;
 }
 
 img{
-  padding:3px;
-  margin:0 0 0 30px;
-  align-items: baseline;
+  padding:10px 0 0 0 ;
+  margin:0 0 10px 25px;
+  align-items: flex-end;
 }
 
 
 
 .bizlink:hover{
   background-color: var(--lightgray);
-  border:2px solid white;
-  padding: 15px;
+  border:1px solid white;
+  padding: 17px;
+}
+
+
+.up{
+  color:black;
+  align-items: flex-start;
+  padding:0 0 20px 0;
+}
+
+
+.biss{
+  margin:0 auto;
+  
 }
