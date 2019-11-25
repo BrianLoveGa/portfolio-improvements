@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="app">
       <h1 className="top">Brian Loveless Portfolio</h1>
+      <h2>Work in progress .... site under construction</h2>
       <div>
         <nav role="navigation">
           <div id="menuToggle">
