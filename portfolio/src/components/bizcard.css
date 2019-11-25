@@ -14,7 +14,29 @@
   --white: rgb(241, 241, 247);
 }
 
+svg{
+  padding:0 0 0 25px;
+}
 
+.space{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 .biz{
     background-color: var(--lightblue);
+}
+
+img{
+  padding:3px;
+  margin:0 0 0 30px;
+  align-items: baseline;
+}
+
+
+
+.bizlink:hover{
+  background-color: var(--lightgray);
+  border:2px solid white;
+  padding: 15px;
 }
