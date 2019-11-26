@@ -18,6 +18,7 @@
   background-color: var(--darkblue);
   color: var(--lightgray);
   text-align: center;
+  padding:4%;
 }
 
 .intro {
