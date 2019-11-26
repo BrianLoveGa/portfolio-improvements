@@ -32,7 +32,7 @@
 }
 .myface {
   max-width: 450px;
-  margin: 5%;
+  margin: 5% auto;
   padding: 10px;
 }
 .h2top {

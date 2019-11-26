@@ -21,3 +21,21 @@
     background-color: var(--lightgray);
     padding:4%;
 }
+
+.big{
+  font-size:20px;
+}
+
+.me{
+  display: inline-flex;
+  align-items: center;
+}
+
+.smallpic{
+  margin:0 10px 0 0;
+}
+
+.list{
+  padding: 0px 10px 40px 0;
+  list-style-type: none;
+}
