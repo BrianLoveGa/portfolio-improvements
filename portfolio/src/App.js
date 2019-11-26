@@ -13,6 +13,25 @@ function App() {
     <div className="app">
       <h1 className="top">Brian Loveless Portfolio</h1>
       <h2>Work in progress .... site under construction</h2>
+      <h3 className="pinktext">
+        Other Pages Include :{" "}
+        <a
+          className="toplink"
+          href="#"
+          TARGET="_BLANK"
+          rel="noopener/norefferer"
+        >
+          First
+        </a>
+        <a
+          className="toplink"
+          href="#"
+          TARGET="_BLANK"
+          rel="noopener/norefferer"
+        >
+          Second
+        </a>
+      </h3>
       <div>
         <nav role="navigation">
           <div id="menuToggle">
