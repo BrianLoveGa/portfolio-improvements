@@ -54,7 +54,7 @@ body {
   font-size: 30px;
   display: inline-block;
   color: var(--darkblue);
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 .link:hover {
