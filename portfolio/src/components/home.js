@@ -1,6 +1,10 @@
 import "./home.css";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "./slideshow.css";
 import React, { Component } from "react";
+import SimpleSlider from "./slickslides";
+
 
 export default class Home extends Component {
   render() {
@@ -35,11 +39,12 @@ export default class Home extends Component {
             </ul>
           </div>
         </div>
-        <h4>View my digital business card</h4>
+        <h4 className="homeMid">View my digital business card</h4>
         <h5>Linkedin || Resume || GitHub || YouTube || more</h5>
-        <h4>Explore some of my projects</h4>
+        <h4 className="homeMid2">Explore some of my projects</h4>
+        <SimpleSlider />
 
-        <h4>And more coming soon</h4>
+        <h4 className="homeMid3">And more coming soon</h4>
       </div>
     );
   }

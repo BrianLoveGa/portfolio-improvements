@@ -8,6 +8,7 @@ import About from "./components/about";
 import Projects from "./components/projects";
 
 
+
 function App() {
   return (
     <div className="app">
@@ -61,6 +62,7 @@ function App() {
                 </Link>
               </li>
               <li>Show me more</li>
+              
             </ul>
           </div>
         </nav>
