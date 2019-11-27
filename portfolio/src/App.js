@@ -84,7 +84,7 @@ function App() {
             className="toplink"
             href="https://www.brianloveless.com/"
             target="_BLANK"
-            rel="noopener/norefferer"
+            rel="noopener noreferrer"
           >
             First
           </a>
@@ -92,7 +92,7 @@ function App() {
             className="toplink"
             href="https://brianloveless-copy.netlify.com/"
             target="_BLANK"
-            rel="noopener/norefferer"
+            rel="noopener noreferrer"
           >
             Second
           </a>
