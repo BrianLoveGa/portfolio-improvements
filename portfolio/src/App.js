@@ -17,17 +17,20 @@ function App() {
         <h1 className="top">Brian Loveless Portfolio</h1>
         <h1 className="neon">OPEN</h1>
       </div>
-      <h2>Work in progress .... site under construction</h2>
-      <h2>Pick a page from the 3 green lines on the left</h2>
-
+      <div className="construction">
+        <h2>Work in progress .... site under construction</h2>
+        <h2>Pick a page from the 3 green lines on the left</h2>
+      </div>
       <div>
         <nav role="navigation">
           <div id="menuToggle">
+            <h3 className="sideNav">↑ Nav ↑</h3>
             <input type="checkbox" />
             <span></span>
             <span></span>
             <span></span>
             <ul id="menu">
+              <li>NAVIGATION</li>
               <li>
                 <Link className="link" to="/portfolio-improvements/home">
                   Home

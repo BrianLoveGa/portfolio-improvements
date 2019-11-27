@@ -26,6 +26,9 @@ body {
   justify-content: space-around;
   margin: 1% 20% 2% 5%;
 }
+.construction {
+  color: var(--white);
+}
 
 .toplink {
   padding: 10px 20px;
@@ -130,6 +133,15 @@ body {
 /*
  * Just a quick hamburger
  */
+.sideNav {
+  color: #10fd08;
+  position: absolute;
+  top: 12px;
+  left: -3px;
+  background-color: black;
+  padding:5px;
+  border-radius:10px;
+}
 
 #menuToggle {
   display: block;
@@ -157,7 +169,7 @@ body {
 
 #menuToggle span {
   display: block;
-  width: 33px;
+  width: 73px;
   height: 4px;
   margin-bottom: 5px;
   position: relative;
@@ -184,6 +196,7 @@ body {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #f30303;
+  width: 33px;
 }
 
 /*
@@ -192,6 +205,7 @@ body {
 #menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
+  width: 33px;
 }
 
 /*
@@ -199,6 +213,7 @@ body {
  */
 #menuToggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
+  width: 33px;
 }
 
 /*
@@ -243,13 +258,10 @@ body {
   }
 }
 
-
 @media screen and (max-width: 425px) {
-
   .header {
-  display: inline-flex;
-  flex-direction: column;
-  margin:2% auto;
-  
-}
+    display: inline-flex;
+    flex-direction: column;
+    margin: 2% auto;
+  }
 }
