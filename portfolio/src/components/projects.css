@@ -30,3 +30,19 @@ p{
   padding:20px;
 }
 
+.plink{
+  text-decoration: none;
+  background-color: var(--silver);
+  padding:15px;
+  border:1px solid var(--white);
+  border-radius: 20px;
+  margin:3% 0 5%;
+  color:var(--darkblue);
+}
+
+
+.plink:hover{
+  background-color: var(--darkblue);
+  color:var(--silver);
+  
+}
