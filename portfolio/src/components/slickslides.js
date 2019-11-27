@@ -17,6 +17,8 @@ export default class SimpleSlider extends React.Component {
       centerPadding:"10px",
       draggable: true,
       fade: true,
+      pauseOnDotsHover: true,
+      swipeToSlide: true,
       slidesToShow: 1,
       slidesToScroll: 1
     };

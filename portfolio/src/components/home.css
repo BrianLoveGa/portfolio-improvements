@@ -14,8 +14,120 @@
   --white: rgb(241, 241, 247);
 }
 
+.home{
+    background-color: var(--lightgray);
+    padding:4%;
+}
 
 
+.h1home{
+  font-size:50px;
+  
+}
+
+.h4home{
+  font-size:25px;
+}
+
+.me{
+  display: inline-flex;
+  align-items: center;
+}
+
+.smallpic{
+  margin:20px 10px 0 0;
+  height: 500px;
+  width:500px;
+}
+
+.list{
+  list-style-type: none;
+  padding:0 70px 10px;
+  font-size:30px;
+}
+
+.big{
+  font-size:40px;
+}
+
+.homeMid{
+  font-size: 40px;
+
+}
+
+.homeMid1{
+  font-size: 35px;
+  color: var(--white);
+  text-shadow: 2px 2px 4px #868585;
+     /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 11s infinite; 
+  /* Internet Explorer */
+  -ms-animation: rainbow 11s infinite;
+  /* Standar Syntax */
+  animation: rainbow 11s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+   0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+.homeMid2{
+
+  font-size: 40px;
+}
+
+
+@media screen and (max-width: 850px) {
+  .me{
+  display: block;
+  
+}
+
+}
+
+
+@media screen and (max-width: 655px) {
 
 .home{
     background-color: var(--lightgray);
@@ -33,13 +145,15 @@
 
 .smallpic{
   margin:0 10px 0 0;
+  height: 200px;
+  width:200px;
 }
 
 .list{
   padding: 0px 10px 40px 0;
-  list-style-type: none;
+  font-size:15px;
+  
 }
-
 
 .homeMid{
   margin:8%;
@@ -50,8 +164,9 @@
   padding:10px 0 0 ;
 }
 
-
 .homeMid3{
   padding:50px 0 0 ;
   margin:3%;
+}
+
 }

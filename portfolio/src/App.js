@@ -14,25 +14,7 @@ function App() {
     <div className="app">
       <h1 className="top">Brian Loveless Portfolio</h1>
       <h2>Work in progress .... site under construction</h2>
-      <h3 className="pinktext">
-        Other Pages Include :{" "}
-        <a
-          className="toplink"
-          href="#"
-          TARGET="_BLANK"
-          rel="noopener/norefferer"
-        >
-          First
-        </a>
-        <a
-          className="toplink"
-          href="#"
-          TARGET="_BLANK"
-          rel="noopener/norefferer"
-        >
-          Second
-        </a>
-      </h3>
+
       <div>
         <nav role="navigation">
           <div id="menuToggle">
@@ -62,13 +44,12 @@ function App() {
                 </Link>
               </li>
               <li>Show me more</li>
-              
             </ul>
           </div>
         </nav>
       </div>
       <main>
-        <div>
+        <div className="sitebox">
           <Switch>
             <Route
               path="/portfolio-improvements/home"
@@ -96,6 +77,27 @@ function App() {
           </Switch>
         </div>
       </main>
+      <footer>
+        <h3 className="pinktext">
+          Other Pages Include :{" "}
+          <a
+            className="toplink"
+            href="https://www.brianloveless.com/"
+            target="_BLANK"
+            rel="noopener/norefferer"
+          >
+            First
+          </a>
+          <a
+            className="toplink"
+            href="https://brianloveless-copy.netlify.com/"
+            target="_BLANK"
+            rel="noopener/norefferer"
+          >
+            Second
+          </a>
+        </h3>
+      </footer>
     </div>
   );
 }
