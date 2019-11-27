@@ -6,6 +6,7 @@ import "./App.css"; /// b/c style points count
 import BizCard from "./components/bizcard";
 import About from "./components/about";
 import Projects from "./components/projects";
+import More from "./components/more";
 
 
 
@@ -17,6 +18,7 @@ function App() {
         <h1 className="neon">OPEN</h1>
       </div>
       <h2>Work in progress .... site under construction</h2>
+      <h2>Pick a page from the 3 green lines on the left</h2>
 
       <div>
         <nav role="navigation">
@@ -46,7 +48,8 @@ function App() {
                   Projects
                 </Link>
               </li>
-              <li>Show me more</li>
+              <li>stay tuned</li>
+              <li>more coming soon</li>
             </ul>
           </div>
         </nav>
@@ -66,6 +69,11 @@ function App() {
               path="/portfolio-improvements/about"
               exact={true}
               component={About}
+            />{" "}
+            <Route
+              path="/portfolio-improvements/more"
+              exact={true}
+              component={More}
             />{" "}
             <Route
               path="/portfolio-improvements/biz"

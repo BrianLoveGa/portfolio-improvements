@@ -21,12 +21,10 @@ body {
   background-color: var(--darkgray);
 }
 
-.header{
+.header {
   display: inline-flex;
   justify-content: space-around;
-  margin:1% 20% 2% 5%;
-  
-
+  margin: 1% 20% 2% 5%;
 }
 
 .toplink {
@@ -54,25 +52,21 @@ body {
 
 .top {
   color: var(--silver);
-  margin:0 10%;
+  margin: 0 10%;
   padding: 2rem 3rem;
+  font-size: 40px;
 }
 
-
-
-.neon{
-  font-family: 'Exo 2', sans-serif;
+.neon {
+  font-family: "Exo 2", sans-serif;
   color: rgb(221, 121, 90);
   padding: 2.5rem 3rem 2.5rem;
   border: 0.2rem solid rgb(199, 217, 250);
   border-radius: 1.5rem;
   text-transform: uppercase;
   animation: flicker 4.5s infinite alternate;
-  background-color: black
-  
+  background-color: black;
 }
-
-
 
 .neon::-moz-selection {
   background-color: var(--neon-border-color);
@@ -90,34 +84,31 @@ body {
 
 /* Animate neon flicker */
 @keyframes flicker {
-    
-    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
-      
-        text-shadow:
-            -0.2rem -0.2rem 1rem rgb(155, 136, 136),
-            0.2rem 0.2rem 1rem rgb(141, 125, 125),
-            0 0 1rem var(--neon-text-color),
-            0 0 2rem var(--neon-text-color),
-            0 0 3rem var(--neon-text-color),
-            0 0 4rem var(--neon-text-color),
-            0 0 5rem var(--neon-text-color);
-        
-        box-shadow:
-            0 0 .5rem #fff,
-            inset 0 0 .5rem #fff,
-            0 0 1rem var(--neon-border-color),
-            inset 0 0 1rem var(--neon-border-color),
-            0 0 2rem var(--neon-border-color),
-            inset 0 0 2rem var(--neon-border-color);        
-    }
-    
-    20%, 24%, 55% {        
-        text-shadow: none;
-        box-shadow: none;
-    }    
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: -0.2rem -0.2rem 1rem rgb(155, 136, 136),
+      0.2rem 0.2rem 1rem rgb(141, 125, 125), 0 0 1rem var(--neon-text-color),
+      0 0 2rem var(--neon-text-color), 0 0 3rem var(--neon-text-color),
+      0 0 4rem var(--neon-text-color), 0 0 5rem var(--neon-text-color);
+
+    box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
+      0 0 1rem var(--neon-border-color), inset 0 0 1rem var(--neon-border-color),
+      0 0 2rem var(--neon-border-color), inset 0 0 2rem var(--neon-border-color);
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+    box-shadow: none;
+  }
 }
-
-
 
 .link {
   padding: 20px;
@@ -174,8 +165,7 @@ body {
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 #menuToggle span:first-child {
@@ -244,4 +234,22 @@ body {
   transform: none;
   margin: -100px 50px 0 -5px;
   border: 1px solid black;
+}
+
+@media screen and (max-width: 900px) {
+  .top {
+    padding: 1rem 1.5rem;
+    font-size: 30px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+
+  .header {
+  display: inline-flex;
+  flex-direction: column;
+  margin:2% auto;
+  
+}
 }
