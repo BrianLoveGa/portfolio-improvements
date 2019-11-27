@@ -12,7 +12,10 @@ import Projects from "./components/projects";
 function App() {
   return (
     <div className="app">
-      <h1 className="top">Brian Loveless Portfolio</h1>
+      <div className="header">
+        <h1 className="top">Brian Loveless Portfolio</h1>
+        <h1 className="neon">OPEN</h1>
+      </div>
       <h2>Work in progress .... site under construction</h2>
 
       <div>

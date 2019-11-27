@@ -1,9 +1,4 @@
-/* color Scheme: light blue, 
-              dark blue, 
-              light gray, 
-              dark gray, 
-              silver, 
-              white. */
+/* color scheme */
 
 :root{
   --lightblue: rgb(83, 198, 233);
@@ -14,8 +9,24 @@
   --white: rgb(241, 241, 247);
 }
 
+.projpage{
+  background-color: var(--silver);
+  padding:4% 2%;
 
-.projects{
-  background-color: lightgoldenrodyellow;
-  padding:4%;
 }
+
+
+.project{
+  background-color: var(--lightblue);
+  width:99%;
+  border-radius: 28px;
+  margin:4% 0;
+  padding:20px 0;
+}
+
+
+p{
+  margin:5%;
+  padding:20px;
+}
+
