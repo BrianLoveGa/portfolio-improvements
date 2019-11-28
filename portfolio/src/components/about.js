@@ -16,7 +16,7 @@ export default class About extends Component {
           <div className="intro1">
             <h2 className="h2top">Greetings</h2>
             <p>I am A Junior Software Engineer.</p>
-            <p>Languges: HTML, SQL, CSS, JAVASCRIPT, PYTHON3, BASH, ZSH.</p>
+            <p>Languages: HTML, SQL, CSS, JAVASCRIPT, PYTHON3, BASH, ZSH.</p>
             <p>
               Frameworks, Middleware, & Libraries: EXPRESS, NODE, REACT, DJANGO,
               POSTGRESQL, HANDLEBARS, MONGOOSE, MONGO DB, PYGAME, LODASH, CORS,
