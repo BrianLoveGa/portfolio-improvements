@@ -24,7 +24,7 @@ function App() {
       <div>
         <nav role="navigation">
           <div id="menuToggle">
-            <h3 className="sideNav">↑ Nav ↑</h3>
+            <h3 className="sideNav">↑ Nav </h3>
             <input type="checkbox" />
             <span></span>
             <span></span>

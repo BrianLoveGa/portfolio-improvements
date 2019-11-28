@@ -14,6 +14,18 @@
   --white: rgb(241, 241, 247);
 }
 
+.biz{
+  background-color: var(--lightblue);
+  padding: 4%;
+}
+
+
+.title{
+  text-align: center;
+  font-size:40px;
+}
+
+
 svg {
   padding: 0 0 0 25px;
   color: var(--darkblue);
@@ -26,9 +38,9 @@ svg {
   color: black;
   width: 250px;
 }
-.biz {
-  background-color: var(--lightblue);
-  padding: 4%;
+.cards {
+  
+  margin:5%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -72,5 +84,19 @@ img {
   .biz {
     margin: 1% 5% 1% 10%;
     flex-direction: column;
+    
+  }
+
+
+  .title{
+  
+  font-size:30px;
+}
+}
+
+
+@media (max-width: 500px){
+  .title{
+    font-size:20px;
   }
 }

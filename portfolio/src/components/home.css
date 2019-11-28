@@ -137,7 +137,12 @@
 .big{
   font-size:20px;
 }
-
+.h1home{
+  text-align: center;
+  max-width:70px;
+  padding:0 0px 0 150px;
+  
+}
 .me{
   display: inline-flex;
   align-items: center;
