@@ -5,7 +5,7 @@
               silver, 
               white. */
 
-:root{
+:root {
   --lightblue: rgb(83, 198, 233);
   --darkblue: rgb(30, 30, 202);
   --lightgray: rgb(191, 191, 199);
@@ -14,53 +14,50 @@
   --white: rgb(241, 241, 247);
 }
 
-.home{
-    background-color: var(--lightgray);
-    padding:4%;
+.home {
+  background-color: var(--lightgray);
+  padding: 4%;
 }
 
-
-.h1home{
-  font-size:50px;
-  
+.h1home {
+  font-size: 50px;
 }
 
-.h4home{
-  font-size:25px;
+.h4home {
+  font-size: 25px;
 }
 
-.me{
+.me {
   display: inline-flex;
   align-items: center;
 }
 
-.smallpic{
-  margin:20px 10px 0 0;
+.smallpic {
+  margin: 20px 10px 0 0;
   height: 500px;
-  width:500px;
+  width: 500px;
 }
 
-.list{
+.list {
   list-style-type: none;
-  padding:0 70px 10px;
-  font-size:30px;
+  padding: 0 70px 10px;
+  font-size: 30px;
 }
 
-.big{
-  font-size:40px;
-}
-
-.homeMid{
+.big {
   font-size: 40px;
-
 }
 
-.homeMid1{
+.homeMid {
+  font-size: 40px;
+}
+
+.homeMid1 {
   font-size: 35px;
   color: var(--white);
   text-shadow: 2px 2px 4px #868585;
-     /* Chrome, Safari, Opera */
-  -webkit-animation: rainbow 11s infinite; 
+  /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 11s infinite;
   /* Internet Explorer */
   -ms-animation: rainbow 11s infinite;
   /* Standar Syntax */
@@ -68,110 +65,196 @@
 }
 
 /* Chrome, Safari, Opera */
-@-webkit-keyframes rainbow{
-  0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
-  30%{color: CadetBlue;}
-	40%{color: yellow;}
-  50%{color: coral;}
-	60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-	100%{color: orange;}
+@-webkit-keyframes rainbow {
+  0% {
+    color: orange;
+  }
+  10% {
+    color: purple;
+  }
+  20% {
+    color: red;
+  }
+  30% {
+    color: CadetBlue;
+  }
+  40% {
+    color: yellow;
+  }
+  50% {
+    color: coral;
+  }
+  60% {
+    color: green;
+  }
+  70% {
+    color: cyan;
+  }
+  80% {
+    color: DeepPink;
+  }
+  90% {
+    color: DodgerBlue;
+  }
+  100% {
+    color: orange;
+  }
 }
 
 /* Internet Explorer */
-@-ms-keyframes rainbow{
-   0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
-  30%{color: CadetBlue;}
-	40%{color: yellow;}
-  50%{color: coral;}
-	60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-	100%{color: orange;}
+@-ms-keyframes rainbow {
+  0% {
+    color: orange;
+  }
+  10% {
+    color: purple;
+  }
+  20% {
+    color: red;
+  }
+  30% {
+    color: CadetBlue;
+  }
+  40% {
+    color: yellow;
+  }
+  50% {
+    color: coral;
+  }
+  60% {
+    color: green;
+  }
+  70% {
+    color: cyan;
+  }
+  80% {
+    color: DeepPink;
+  }
+  90% {
+    color: DodgerBlue;
+  }
+  100% {
+    color: orange;
+  }
 }
 
 /* Standar Syntax */
-@keyframes rainbow{
-    0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
-  30%{color: CadetBlue;}
-	40%{color: yellow;}
-  50%{color: coral;}
-	60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-	100%{color: orange;}
+@keyframes rainbow {
+  0% {
+    color: orange;
+  }
+  10% {
+    color: purple;
+  }
+  20% {
+    color: red;
+  }
+  30% {
+    color: CadetBlue;
+  }
+  40% {
+    color: yellow;
+  }
+  50% {
+    color: coral;
+  }
+  60% {
+    color: green;
+  }
+  70% {
+    color: cyan;
+  }
+  80% {
+    color: DeepPink;
+  }
+  90% {
+    color: DodgerBlue;
+  }
+  100% {
+    color: orange;
+  }
 }
 
-.homeMid2{
-
+.homeMid2 {
   font-size: 40px;
 }
 
+.homeMid2link {
+  text-decoration: none;
+  background-color: var(--darkgray);
+  color: var(--lightblue);
+  padding: 15px 20px 20px;
+  margin: 20% auto;
+  font-size: 30px;
+  border-radius: 20px;
+}
+.homeMid2link:hover {
+  background-color: var(--silver);
+  color: var(--darkblue);
+}
 
 @media screen and (max-width: 850px) {
-  .me{
-  display: block;
-  
+  .me {
+    display: block;
+  }
 }
-
-}
-
 
 @media screen and (max-width: 655px) {
-
-.home{
+  .home {
     background-color: var(--lightgray);
-    padding:4%;
+    padding: 4%;
+  }
+
+  .big {
+    font-size: 20px;
+  }
+  .h1home {
+    text-align: center;
+    max-width: 70px;
+    padding: 0 0px 0 150px;
+  }
+  .me {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .smallpic {
+    margin: 0 10px 0 0;
+    height: 200px;
+    width: 200px;
+  }
+
+  .list {
+    padding: 0px 10px 40px 0;
+    font-size: 15px;
+  }
+
+  .homeMid {
+    margin: 8%;
+  }
+
+  .homeMid2 {
+    margin: 10%;
+    padding: 10px 0 0;
+  }
+
+  .homeMid3 {
+    padding: 50px 0 0;
+    margin: 3%;
+  }
 }
 
-.big{
-  font-size:20px;
-}
-.h1home{
-  text-align: center;
-  max-width:70px;
-  padding:0 0px 0 150px;
-  
-}
-.me{
-  display: inline-flex;
-  align-items: center;
-}
+@media screen and (max-width: 400px) {
+  .h1home {
+    margin: 2% 10% 5% 30%;
+    padding: 0;
+    font-size: 40px;
+  }
+  .h4home {
+    margin: 30% 5% 5%;
+  }
 
-.smallpic{
-  margin:0 10px 0 0;
-  height: 200px;
-  width:200px;
-}
-
-.list{
-  padding: 0px 10px 40px 0;
-  font-size:15px;
-  
-}
-
-.homeMid{
-  margin:8%;
-}
-
-.homeMid2{
-  margin:10%;
-  padding:10px 0 0 ;
-}
-
-.homeMid3{
-  padding:50px 0 0 ;
-  margin:3%;
-}
-
+  .me{
+    flex-direction: column;
+  }
 }

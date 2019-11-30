@@ -3,8 +3,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./slideshow.css";
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import SimpleSlider from "./slickslides";
-
 
 export default class Home extends Component {
   render() {
@@ -38,10 +38,17 @@ export default class Home extends Component {
           </div>
         </div>
         <h4 className="homeMid">View my digital business card</h4>
-        <h5 className="homeMid1">
-          Linkedin || Resume || GitHub || YouTube || more
+        <h5>
+          <Link className="homeMid1" to="/portfolio-improvements/biz">
+            Linkedin || Resume || GitHub || YouTube || more
+          </Link>
         </h5>
-        <h4 className="homeMid2">Explore some of my projects</h4>
+        <h4 className="homeMid2">
+          Explore some of my{" "}</h4>
+          <Link className="homeMid2link" to="/portfolio-improvements/projs">
+            projects
+          </Link>
+        
         <SimpleSlider />
 
         <h4 className="homeMid3">And more coming soon</h4>

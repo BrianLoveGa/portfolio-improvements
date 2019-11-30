@@ -85,3 +85,25 @@
     padding: 10px 65px;
   }
 }
+
+
+@media screen and (max-width: 430px) {
+  .myface {
+    max-width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+  .h2top{
+    margin:2% auto;
+    padding:0;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .h2top{
+    font-size:25px;
+    margin: 0;
+    padding:0;
+  }
+}

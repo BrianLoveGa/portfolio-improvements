@@ -14,9 +14,10 @@ function App() {
   return (
     <div className="app">
       <div className="header">
-        <h1 className="top">Brian Loveless Portfolio</h1>
+        <h1 className="top">Brian Loveless</h1>
         <h1 className="neon">OPEN</h1>
       </div>
+      <h1 className="tagline">Software Engineer / Programmer</h1>
       <div className="construction">
         <h2>Work in progress .... site under construction</h2>
         <h2>Pick a page from the 3 green lines on the left</h2>
@@ -100,7 +101,7 @@ function App() {
             target="_BLANK"
             rel="noopener noreferrer"
           >
-            First
+            Started here
           </a>
           <a
             className="toplink"
@@ -108,7 +109,7 @@ function App() {
             target="_BLANK"
             rel="noopener noreferrer"
           >
-            Second
+            Then 2nd
           </a>
         </h3>
       </footer>

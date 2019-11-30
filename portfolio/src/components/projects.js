@@ -12,9 +12,9 @@ export default class Projects extends Component {
   render() {
     return (
       <div className="projpage">
-        <h1>My Projects </h1>
-        <h3>All sites are mobile friendly </h3>
-        <h3>click the link under the slideshow </h3>
+        <h1 className="projtitle">My Projects </h1>
+        <h3 className="slide">All sites are mobile friendly </h3>
+        <h3 className="slide1">click the link under the slideshow </h3>
         <div className="projectsbox">
           <div className="project">
             <h1> Project 1 </h1>

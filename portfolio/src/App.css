@@ -24,7 +24,11 @@ body {
 .header {
   display: inline-flex;
   justify-content: space-around;
-  margin: 1% 20% 2% 5%;
+  margin: 3% 20% 2% 5%;
+}
+.tagline{
+  color: var(--lightblue);
+  font-size:250%;
 }
 .construction {
   color: var(--white);
@@ -55,20 +59,21 @@ body {
 
 .top {
   color: var(--silver);
-  margin: 0 10%;
+  margin: 1% 10%;
   padding: 2rem 3rem;
-  font-size: 40px;
+  font-size: 70px;
 }
 
 .neon {
   font-family: "Exo 2", sans-serif;
   color: rgb(221, 121, 90);
-  padding: 2.5rem 3rem 2.5rem;
+  padding: 2.8rem 4.5rem 2rem;
   border: 0.2rem solid rgb(199, 217, 250);
   border-radius: 1.5rem;
   text-transform: uppercase;
   animation: flicker 4.5s infinite alternate;
   background-color: black;
+  font-size:60px;
 }
 
 .neon::-moz-selection {
@@ -255,13 +260,24 @@ body {
   .top {
     padding: 1rem 1.5rem;
     font-size: 30px;
+    margin:7%;
   }
+    .neon {
+  font-size:40px;
+  padding: 2rem 3rem;
+  
+}
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 495px) {
   .header {
     display: inline-flex;
     flex-direction: column;
     margin: 2% auto;
   }
+  .neon {
+  font-size:30px;
+  padding: 3rem 2rem;
+  
+}
 }

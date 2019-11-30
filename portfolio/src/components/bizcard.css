@@ -14,17 +14,15 @@
   --white: rgb(241, 241, 247);
 }
 
-.biz{
+.biz {
   background-color: var(--lightblue);
   padding: 4%;
 }
 
-
-.title{
+.title {
   text-align: center;
-  font-size:40px;
+  font-size: 40px;
 }
-
 
 svg {
   padding: 0 0 0 25px;
@@ -39,8 +37,7 @@ svg {
   width: 250px;
 }
 .cards {
-  
-  margin:5%;
+  margin: 5%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -84,19 +81,69 @@ img {
   .biz {
     margin: 1% 5% 1% 10%;
     flex-direction: column;
-    
   }
 
-
-  .title{
-  
-  font-size:30px;
-}
+  .title {
+    font-size: 30px;
+  }
 }
 
+@media (max-width: 500px) {
+  .title {
+    font-size: 20px;
+  }
+  .biss {
+    padding: 1px;
+  }
+  .bizlink,
+  .up {
+    padding: 8px 1px 1px 30px;
+    width: 80%;
+  }
+}
+@media (max-width: 380px) {
+  .title {
+    font-size: 20px;
+  }
+  .biss {
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .up,
+  .bizlink {
+    padding: 0;
+    font-size: 20px;
+    margin: 2% 0;
+  }
+  .space {
+    margin: 0;
+    padding: 15px 1px 1px 15px;
+  }
+}
+@media (max-width: 300px) {
+  .title {
+    font-size: 15px;
+    margin: 20% 5%;
+  }
 
-@media (max-width: 500px){
-  .title{
-    font-size:20px;
+  .up,
+  .bizlink {
+    padding: 10px 0;
+    font-size: 20px;
+    margin: 2% 0;
+    background-color: var(--lightblue);
+    border: none;
+  }
+  .space {
+    margin: 0;
+    padding: 0;
+    width:auto;
+  }
+  .bizlink:hover {
+    color: var(--lightblue);
+    background-color: var(--lightblue);
+    border: none;
   }
 }
