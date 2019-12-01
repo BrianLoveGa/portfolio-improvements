@@ -15,3 +15,123 @@
     color: var(--lightgray);
     padding:5px 10px;
 }
+
+.emailForm{
+    background-color: var(--lightblue);
+    display: inline-flex;
+    flex-direction: column;
+    color: var(--darkblue);
+    border-radius: 5px;
+}
+
+.form{
+    margin:2%;
+    padding:20px;
+}
+
+input{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-size:20px;
+    width:75%;
+    height:auto;
+    border:2px solid white;
+}
+
+textarea{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    font-size: 20px;
+    margin:10%;
+    width:80%;
+    height:auto;
+    border:2px solid white;
+}
+
+.form a{
+    display: inline-block;
+    background-color: var(--darkgray);
+    color: var(--lightgray);
+    text-decoration: none;
+    padding:20px;
+    border-radius: 15px;
+    margin: 5% 10% 1%;
+
+}
+
+.form a:hover,
+.form a:focus,
+.form a:active{
+    background-color: var(--darkblue);
+    color: var(--lightblue);
+    padding:25px;
+}
+
+
+.contactRES{
+    background-color: var(--silver);
+    padding:20px 35px;
+    display: inline-flex;
+    text-decoration: none;
+    color: var(--white);
+    border-radius:50px;
+    justify-content: center;
+    align-items: center;
+    border:2px solid var(--white);
+}
+
+
+.contactRES:hover,
+.contactRES:active,
+.contactRES:focus{
+    background-color: var(--white);
+    color: var(--darkgray);
+    padding:18px 30px;
+    border:5px solid var(--darkgray);
+}
+
+
+.cntctcard{
+    padding: 0 20px 30px;
+}
+
+.bp{
+    padding:30px 20px;
+    
+    
+}
+
+
+@media (max-width: 300px) {
+
+.contactRES{
+    
+    padding:8px;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.contactRES:hover,
+.contactRES:active,
+.contactRES:focus{
+    
+    padding:10px;
+}
+
+
+.cntctcard{
+    padding:0;
+    width:80%;
+}
+
+.bp{
+    padding:5%;
+    
+    
+}
+
+
+}
