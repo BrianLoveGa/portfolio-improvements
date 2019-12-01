@@ -37,6 +37,8 @@ export default class Home extends Component {
             </ul>
           </div>
         </div>
+        <h3>Avaliable for Web-site Creation, Appliacation Development, App Launches, 
+          Site Deployment, UX, UI, Digital Consultation, Page Design, and more.</h3>
         <h4 className="homeMid">View my digital business card</h4>
         <h5>
           <Link className="homeMid1" to="/portfolio-improvements/biz">
@@ -51,7 +53,7 @@ export default class Home extends Component {
         
         <SimpleSlider />
 
-        <h4 className="homeMid3">And more coming soon</h4>
+        <h4 className="homeMid3">stay tuned more content soon</h4>
       </div>
     );
   }

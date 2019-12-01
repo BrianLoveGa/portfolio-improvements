@@ -1,0 +1,17 @@
+:root {
+  --lightblue: rgb(83, 198, 233);
+  --darkblue: rgb(30, 30, 202);
+  --lightgray: rgb(191, 191, 199);
+  --darkgray: rgb(58, 58, 65);
+  --silver: rgb(123, 151, 156);
+  --white: rgb(241, 241, 247);
+}
+
+
+
+.contactBox{
+    margin:1%;
+    background-color: var(--darkblue);
+    color: var(--lightgray);
+    padding:5px 10px;
+}

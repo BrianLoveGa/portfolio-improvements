@@ -168,6 +168,26 @@ export default class BizCard extends Component {
               </div>
             </a>
           </h2>
+          <h2 className="biss">
+            {" "}
+            <a
+              className="bizlink up"
+              href="https://my.indeed.com/p/brianl-b968ym8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="space">
+                Indeed 
+                <img
+                  className="bizpic"
+                  src="https://user-images.githubusercontent.com/49296385/55599327-09f84380-570c-11e9-8ca9-a745e495120c.png"
+                  height="30px"
+                  width="50px"
+                  alt="Indeed logo"
+                ></img>
+              </div>
+            </a>
+          </h2>
         </div>
       </div>
     );

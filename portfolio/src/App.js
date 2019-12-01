@@ -1,4 +1,4 @@
-import Home from './components/home';
+import Home from "./components/home";
 import React from "react"; /// well its a react app
 import { Route, Switch, Link, Redirect } from "react-router-dom"; /// to have all the pages happy clicky
 import "./App.css"; /// b/c style points count
@@ -7,8 +7,7 @@ import BizCard from "./components/bizcard";
 import About from "./components/about";
 import Projects from "./components/projects";
 import More from "./components/more";
-
-
+import Contact from "./components/contact";
 
 function App() {
   return (
@@ -35,6 +34,11 @@ function App() {
               <li>
                 <Link className="link" to="/portfolio-improvements/home">
                   Home
+                </Link>
+              </li>
+              <li>
+                <Link className="link" to="/portfolio-improvements/contact">
+                  Contact
                 </Link>
               </li>
               <li>
@@ -78,6 +82,11 @@ function App() {
               path="/portfolio-improvements/more"
               exact={true}
               component={More}
+            />{" "}
+            <Route
+              path="/portfolio-improvements/contact"
+              exact={true}
+              component={Contact}
             />{" "}
             <Route
               path="/portfolio-improvements/biz"
