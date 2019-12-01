@@ -13,7 +13,13 @@ export default class Contact extends Component {
         <h1>Contact Brian Many Ways</h1>
         <div className="emailForm">
           <h2> G-mail / Email Me</h2>
-          <ReactContactForm className="form" to="brian.loveless1@gmail.com" />
+          <ReactContactForm
+            className="form"
+            titleMaxLength="65"
+            contentsMaxLength="400"
+            buttonText="Send Brian an Email"
+            to="brian.loveless1@gmail.com"
+          />
         </div>
         <h3>Send a message via</h3>
         <h1 className="cntctcard">
