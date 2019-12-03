@@ -8,7 +8,7 @@ import Proj1Slides from "./proj1slide";
 import Proj2Slides from "./proj2slide";
 import Proj3Slides from "./proj3slide";
 import Proj4Slides from "./proj4slide";
-import Codecamp from "./codecamp";
+
 
 export default class Projects extends Component {
   render() {
