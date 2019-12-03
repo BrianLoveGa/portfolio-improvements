@@ -85,19 +85,17 @@ export default class Codecamp extends Component {
         </div>
         <div className="proj1_box">
           <h3>Third project for responsive web design</h3>
-          <h3>"make a   page" via code pen</h3>
-          <h3>
-            I made it 
-          </h3>
+          <h3>"make a product landing page" via code pen</h3>
+          <h3>I made it for my fake sprockets company instead of trombones.</h3>
           <img
             class="ccproj1"
-            src={require("./images/projs/codecamp/Car-Survey.png")}
-            alt="Car survey form on code pen"
+            src={require("./images/projs/codecamp/Sprocket.png")}
+            alt="Brian's Best Sprockets product page on code pen"
           ></img>
           <h3>
             Link to completed project page{" "}
             <a
-              href="https://codepen.io/B-code-Loveless/pen/rNaNQxL?editors=1000"
+              href="https://codepen.io/B-code-Loveless/pen/VwYwqOv?editors=1100"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -108,11 +106,8 @@ export default class Codecamp extends Component {
         </div>
         <div className="proj1_box">
           <h3>Fourth project for responsive web design</h3>
-          <h3>"make a   page" via code pen</h3>
-          <h3>
-            {" "}
-            I made it  
-          </h3>
+          <h3>"make a page" via code pen</h3>
+          <h3> I made it</h3>
           <img
             class="ccproj1"
             src={require("./images/projs/codecamp/Car-Survey.png")}
