@@ -1,0 +1,33 @@
+:root {
+  --lightblue: rgb(83, 198, 233);
+  --darkblue: rgb(30, 30, 202);
+  --lightgray: rgb(191, 191, 199);
+  --darkgray: rgb(58, 58, 65);
+  --silver: rgb(123, 151, 156);
+  --white: rgb(241, 241, 247);
+}
+
+.codecampbox{
+    margin:4%;
+    background-color: var(--white);
+    color: var(--darkgray);
+    padding:20px;
+    border-radius:10px;
+}
+
+
+.proj1_box{
+    background-color: var(--lightgray);
+    text-align: center;
+    border-radius: 50px;
+    padding:10px;
+
+}
+
+.ccproj1{
+    max-width:80%;
+    height: auto;
+    display: block;
+    margin: 2% auto;
+    text-align: center;
+}

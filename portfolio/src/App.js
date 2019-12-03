@@ -8,6 +8,7 @@ import About from "./components/about";
 import Projects from "./components/projects";
 import More from "./components/more";
 import Contact from "./components/contact";
+import Codecamp from "./components/codecamp";
 
 function App() {
   return (
@@ -77,6 +78,11 @@ function App() {
               path="/portfolio-improvements/about"
               exact={true}
               component={About}
+            />{" "}
+            <Route
+              path="/portfolio-improvements/projects/codecamp"
+              exact={true}
+              component={Codecamp}
             />{" "}
             <Route
               path="/portfolio-improvements/more"

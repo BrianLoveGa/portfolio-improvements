@@ -2,11 +2,13 @@ import "./projects.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import { Link } from "react-router-dom";
 import React, { Component } from "react";
 import Proj1Slides from "./proj1slide";
 import Proj2Slides from "./proj2slide";
 import Proj3Slides from "./proj3slide";
 import Proj4Slides from "./proj4slide";
+import Codecamp from "./codecamp";
 
 export default class Projects extends Component {
   render() {
@@ -15,6 +17,16 @@ export default class Projects extends Component {
         <h1 className="projtitle">My Projects </h1>
         <h3 className="slide">All sites are mobile friendly </h3>
         <h3 className="slide1">click the link under the slideshow </h3>
+
+        <h3>
+          <Link
+            className="homeMid2link"
+            to="/portfolio-improvements/projects/codecamp"
+          >
+            click here
+          </Link>{" "}
+          to see what I've been up to at Free code camp .com
+        </h3>
         <div className="projectsbox">
           <div className="project">
             <h1> Project 1 </h1>
