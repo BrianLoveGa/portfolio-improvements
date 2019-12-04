@@ -20,7 +20,7 @@ export default class Projects extends Component {
 
         <h3>
           <Link
-            className="homeMid2link"
+            className="ccprojlink"
             to="/portfolio-improvements/projects/codecamp"
           >
             click here

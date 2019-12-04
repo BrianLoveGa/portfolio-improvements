@@ -15,6 +15,21 @@
 
 }
 
+.ccprojlink{
+  text-decoration: none;
+  background-color: var(--darkblue);
+  color: var(--lightgray);
+  padding:10px;
+  border-radius: 10px;
+}
+
+.ccprojlink:hover,
+.ccprojlink:focus,
+.ccprojlink:active{
+  background-color: var(--lightgray);
+  color: var(--darkblue);
+
+}
 
 .project{
   background-color: var(--lightblue);
@@ -36,9 +51,10 @@ p{
   padding:15px;
   border:1px solid var(--white);
   border-radius: 20px;
-  margin:3% 0 5%;
+  margin:0 0 5%;
   color:var(--darkblue);
   display: inline-block;
+  font-size:20px;
 }
 
 
@@ -49,11 +65,13 @@ p{
 }
 
 
+
 @media screen and (max-width:410px){
   .slide{
     margin:40% 20% 0;
     color:white;
   }
+  
 
 }
 
