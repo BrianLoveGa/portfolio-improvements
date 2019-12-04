@@ -106,23 +106,25 @@ export default class Codecamp extends Component {
         </div>
         <div className="proj1_box">
           <h3>Fourth project for responsive web design</h3>
-          <h3>"make a page" via code pen</h3>
-          <h3> I made it</h3>
-          <img
+          <h3>"make a technical documentation page" via code pen</h3>
+          <h3> I'm making it ...</h3>
+          {/* <img
             class="ccproj1"
             src={require("./images/projs/codecamp/Car-Survey.png")}
             alt="Car survey form on code pen"
-          ></img>
+          ></img> */}
           <h3>
             Link to completed project page{" "}
-            <a
-              href="https://codepen.io/B-code-Loveless/pen/rNaNQxL?editors=1000"
+            {/* <a
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
             >
               avaliable here{" "}
-            </a>{" "}
-            on code pen site.
+            </a>{" "} */}
+            on code pen site. <br />
+            Coming Soon ...
+
           </h3>
         </div>
       </div>
