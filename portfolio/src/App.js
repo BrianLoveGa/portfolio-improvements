@@ -9,6 +9,7 @@ import Projects from "./components/projects";
 import More from "./components/more";
 import Contact from "./components/contact";
 import Codecamp from "./components/codecamp";
+import Secret from "./components/secret";
 
 function App() {
   return (
@@ -88,6 +89,11 @@ function App() {
               path="/portfolio-improvements/more"
               exact={true}
               component={More}
+            />{" "}
+            <Route
+              path="/portfolio-improvements/secret"
+              exact={true}
+              component={Secret}
             />{" "}
             <Route
               path="/portfolio-improvements/contact"
