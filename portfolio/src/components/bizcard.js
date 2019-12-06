@@ -1,5 +1,5 @@
 import "./bizcard.css";
-import pdf from "./images/BrianRes.pdf";
+import pdf from "./images/Brianres.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import React, { Component } from "react";
@@ -16,7 +16,7 @@ export default class BizCard extends Component {
             {" "}
             <a
               className="bizlink"
-              download="Brian Resume.pdf"
+              download="Brian Loveless - Resume.pdf"
               href={pdf}
               target="_blank"
               rel="noopener noreferrer"

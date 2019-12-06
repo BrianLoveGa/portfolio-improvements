@@ -49,6 +49,15 @@ export default class Projects extends Component {
             >
               Visit Simple > Complex here
             </a>
+            <br />
+            <a
+              className="plink"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/BrianLoveGa/proj4-simple-over-complex"
+            >
+              Code Repo for Simple > Complex here
+            </a>
           </div>
           <div className="project">
             <h1> Project 2 </h1>
@@ -72,6 +81,23 @@ export default class Projects extends Component {
             >
               Share a recipie here
             </a>
+            <br />
+            <a
+              className="plink"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/esin87/ga-seir-project3-frontend"
+            >
+              Front end Code Repo here
+            </a>
+            <a
+              className="plink"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/esin87/ga-seir-project3"
+            >
+              Back end Code Repo here
+            </a>
           </div>
           <div className="project">
             <h1> Project 3 </h1>
@@ -92,6 +118,15 @@ export default class Projects extends Component {
             >
               Play the RPSLS game here
             </a>
+            <br />
+            <a
+              className="plink"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/BrianLoveGa/game-rock-paper-scissors"
+            >
+              Code Repo for RPSLS here
+            </a>
           </div>
           <div className="project">
             <h1> Project 4 </h1>
@@ -110,6 +145,15 @@ export default class Projects extends Component {
               href="https://brianlovega.github.io/cool-LinksPage/"
             >
               Check it out here
+            </a>
+            <br />
+            <a
+              className="plink"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/BrianLoveGa/cool-LinksPage"
+            >
+              Code Repo avaliable here
             </a>
           </div>
         </div>

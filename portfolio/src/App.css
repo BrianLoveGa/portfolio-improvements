@@ -17,6 +17,8 @@
 }
 @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
 
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif|Open+Sans&display=swap");
+
 body {
   background-color: var(--darkgray);
 }
@@ -26,15 +28,17 @@ body {
   justify-content: space-around;
   margin: 3% 20% 2% 5%;
 }
-.tagline{
+.tagline {
   color: var(--lightblue);
-  font-size:250%;
+  font-size: 250%;
+  font-family: "Noto Serif", serif;
 }
-.construction {
+.instruction {
   color: var(--white);
+  font-family: "Inconsolata", monospace;
 }
 
-.toplink {
+.footlink {
   padding: 10px 20px;
   background-color: var(--silver);
   text-decoration: none;
@@ -45,7 +49,7 @@ body {
   border: 3px solid var(--darkblue);
   border-radius: 20px;
 }
-.toplink:hover {
+.footlink:hover {
   background-color: var(--lightgray);
   color: var(--darkblue);
 }
@@ -62,6 +66,7 @@ body {
   margin: 1% 10%;
   padding: 2rem 3rem;
   font-size: 70px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .neon {
@@ -73,7 +78,15 @@ body {
   text-transform: uppercase;
   animation: flicker 4.5s infinite alternate;
   background-color: black;
-  font-size:60px;
+  font-size: 60px;
+}
+
+.neon-link {
+  text-decoration: none;
+}
+
+.neon-link:hover {
+  cursor: progress;
 }
 
 .neon::-moz-selection {
@@ -128,6 +141,8 @@ body {
   display: inline-block;
   color: var(--darkblue);
   border: 2px solid black;
+  font-family: 'Inconsolata', monospace;
+
 }
 
 .link:hover {
@@ -144,8 +159,8 @@ body {
   top: 12px;
   left: -3px;
   background-color: black;
-  padding:5px 10px 5px 5px;
-  border-radius:10px;
+  padding: 5px 10px 5px 5px;
+  border-radius: 10px;
 }
 
 #menuToggle {
@@ -230,7 +245,7 @@ body {
   width: 300px;
   margin: -100px 50px 0 -20px;
   padding: 10px 20px 50px 20px;
-
+  font-family: "Open Sans", sans-serif;
   background: #f4a4f7;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -238,13 +253,13 @@ body {
 
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
-
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 #menu li {
   padding: 7px 1px;
   font-size: 17px;
+  font-family: 'Noto Serif', serif;
 }
 
 /*
@@ -260,13 +275,12 @@ body {
   .top {
     padding: 1rem 1.5rem;
     font-size: 30px;
-    margin:7%;
+    margin: 7%;
   }
-    .neon {
-  font-size:40px;
-  padding: 2rem 3rem;
-  
-}
+  .neon {
+    font-size: 40px;
+    padding: 2rem 3rem;
+  }
 }
 
 @media screen and (max-width: 495px) {
@@ -276,8 +290,7 @@ body {
     margin: 2% auto;
   }
   .neon {
-  font-size:30px;
-  padding: 3rem 2rem;
-  
-}
+    font-size: 30px;
+    padding: 3rem 2rem;
+  }
 }

@@ -13,10 +13,12 @@
   --silver: rgb(123, 151, 156);
   --white: rgb(241, 241, 247);
 }
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif|Open+Sans&display=swap');
 
 .biz {
   background-color: var(--lightblue);
   padding: 4%;
+  font-family: 'Inconsolata', monospace;
 }
 
 .title {

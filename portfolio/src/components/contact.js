@@ -2,7 +2,7 @@ import "./contact.css";
 
 import React, { Component } from "react";
 import ReactContactForm from "react-mail-form";
-import pdf from "./images/BrianRes.pdf";
+import pdf from "./images/Brianres.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
@@ -44,7 +44,7 @@ export default class Contact extends Component {
         <h1 className="cntctcard">
           <a
             className="contactRES"
-            download="Brian Resume.pdf"
+            download="Brian Loveless - Resume.pdf"
             href={pdf}
             target="_blank"
             rel="noopener noreferrer"

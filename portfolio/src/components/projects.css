@@ -9,9 +9,12 @@
   --white: rgb(241, 241, 247);
 }
 
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif|Open+Sans&display=swap');
+
 .projpage{
   background-color: var(--silver);
   padding:4% 2%;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -37,12 +40,15 @@
   border-radius: 28px;
   margin:4% 0;
   padding:20px 0;
+  font-family: 'Inconsolata', monospace;
+
 }
 
 
 p{
   margin:5%;
   padding:20px;
+  font-family: 'Noto Serif', serif;
 }
 
 .plink{
@@ -51,7 +57,7 @@ p{
   padding:15px;
   border:1px solid var(--white);
   border-radius: 20px;
-  margin:0 0 5%;
+  margin:0 2% 5%;
   color:var(--darkblue);
   display: inline-block;
   font-size:20px;

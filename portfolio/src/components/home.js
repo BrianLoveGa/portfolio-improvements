@@ -28,7 +28,7 @@ export default class Home extends Component {
               <li>General Assembly</li>
               <li>Software Engineering Immersion</li>
               <li>&nbsp;</li>
-              <li>BS in B Admin From GSU</li>
+              <li>BS in Business Admin From GSU</li>
               <li>&nbsp;</li>
               <li>I enjoy gaming on my X-box One</li>
               <li>I've been to Paris twice</li>
@@ -37,23 +37,27 @@ export default class Home extends Component {
             </ul>
           </div>
         </div>
-        <h3>Avaliable for Web-site Creation, Appliacation Development, App Launches, 
-          Site Deployment, UX, UI, Digital Consultation, Page Design, and more.</h3>
+        <h3>
+          Avaliable for Web-site Creation, Appliacation Development, App
+          Launches, Site Deployment, UX, UI, Digital Consultation, Page Design,
+          and more.
+        </h3>
+        <div className="proj-boxy">
+        <h4 className="homeMid2">Explore some of my </h4>
+        <Link className="homeMid2link" to="/portfolio-improvements/projs">
+          projects
+        </Link>
+
+        <SimpleSlider />
+        </div>
         <h4 className="homeMid">View my digital business card</h4>
         <h5>
           <Link className="homeMid1" to="/portfolio-improvements/biz">
             Linkedin || Resume || GitHub || YouTube || more
           </Link>
         </h5>
-        <h4 className="homeMid2">
-          Explore some of my{" "}</h4>
-          <Link className="homeMid2link" to="/portfolio-improvements/projs">
-            projects
-          </Link>
-        
-        <SimpleSlider />
 
-        <h4 className="homeMid3">stay tuned more content soon</h4>
+        <h4 className="homeMid3">stay tuned for more content soon</h4>
       </div>
     );
   }

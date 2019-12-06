@@ -16,11 +16,12 @@ function App() {
     <div className="app">
       <div className="header">
         <h1 className="top">Brian Loveless</h1>
-        <h1 className="neon">OPEN</h1>
+        <Link className="neon-link" to="/portfolio/secret">
+          <h1 className="neon">OPEN</h1>
+        </Link>
       </div>
       <h1 className="tagline">Software Engineer / Programmer</h1>
-      <div className="construction">
-        <h2>Work in progress .... site under construction</h2>
+      <div className="instruction">
         <h2>Pick a page from the 3 green lines on the left</h2>
       </div>
       <div>
@@ -39,10 +40,11 @@ function App() {
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/portfolio-improvements/contact">
-                  Contact
+                <Link className="link" to="/portfolio-improvements/projects">
+                  Projects
                 </Link>
               </li>
+
               <li>
                 <Link className="link" to="/portfolio-improvements/about">
                   About
@@ -54,10 +56,11 @@ function App() {
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/portfolio-improvements/projects">
-                  Projects
+                <Link className="link" to="/portfolio-improvements/contact">
+                  Contact
                 </Link>
               </li>
+
               <li>stay tuned</li>
               <li>more coming soon</li>
             </ul>
@@ -72,8 +75,13 @@ function App() {
               exact={true}
               component={Home}
             />{" "}
-            <Route exact path="/">
-              <Redirect to="/portfolio-improvements/home" />
+            <Route path="/portfolio-improvements/">
+              exact={true}
+              component={Home}
+            </Route>
+            <Route path="/">
+              exact={true}
+              component={Home}
             </Route>
             <Route
               path="/portfolio-improvements/about"
@@ -117,7 +125,7 @@ function App() {
         <h3 className="pinktext">
           Other Pages Include :{" "}
           <a
-            className="toplink"
+            className="footlink"
             href="https://www.brianloveless.com/"
             target="_BLANK"
             rel="noopener noreferrer"
@@ -125,7 +133,7 @@ function App() {
             Started here
           </a>
           <a
-            className="toplink"
+            className="footlink"
             href="https://brianloveless-copy.netlify.com/"
             target="_BLANK"
             rel="noopener noreferrer"

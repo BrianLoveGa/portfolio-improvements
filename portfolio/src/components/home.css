@@ -13,10 +13,12 @@
   --silver: rgb(123, 151, 156);
   --white: rgb(241, 241, 247);
 }
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif|Open+Sans&display=swap");
 
 .home {
   background-color: var(--lightgray);
   padding: 4%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .h1home {
@@ -30,12 +32,16 @@
 .me {
   display: inline-flex;
   align-items: center;
+  
 }
 
 .smallpic {
   margin: 20px 10px 0 0;
   height: 500px;
   width: 500px;
+  border-radius: 50%;
+  border:2px solid var(--darkblue);
+  padding:10px;
 }
 
 .list {
@@ -50,12 +56,26 @@
 
 .homeMid {
   font-size: 40px;
+  margin:50px 0 0;
+}
+
+
+.proj-boxy{
+  border:5px solid var(--darkgray);
+  border-radius: 10px;
+  padding:0 0 100px;
+}
+@media screen and (max-width: 655px) {
+  .proj-boxy{
+    padding:0 0 50px;
+  }
 }
 
 .homeMid1 {
   font-size: 35px;
   color: var(--white);
   margin:3%;
+  text-decoration: none;
   text-shadow: 2px 2px 4px #868585;
   /* Chrome, Safari, Opera */
   -webkit-animation: rainbow 11s infinite;
@@ -187,6 +207,7 @@
 
 .homeMid2 {
   font-size: 40px;
+  
 }
 
 .homeMid2link {
@@ -239,9 +260,7 @@
     font-size: 15px;
   }
 
-  .homeMid {
-    margin: 8%;
-  }
+ 
 
   .homeMid2 {
     margin: 10%;

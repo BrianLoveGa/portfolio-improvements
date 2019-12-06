@@ -7,13 +7,15 @@
   --white: rgb(241, 241, 247);
 }
 
-
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif|Open+Sans&display=swap');
 
 .contactBox{
     margin:1%;
     background-color: var(--darkblue);
     color: var(--lightgray);
     padding:5px 10px;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .emailForm{
