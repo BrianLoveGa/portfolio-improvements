@@ -1,6 +1,6 @@
 import Home from "./components/home";
 import React from "react"; /// well its a react app
-import { Route, Switch, Link, Redirect } from "react-router-dom"; /// to have all the pages happy clicky
+import { Route, Switch, Link } from "react-router-dom"; /// to have all the pages happy clicky
 import "./App.css"; /// b/c style points count
 
 import BizCard from "./components/bizcard";
