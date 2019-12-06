@@ -1,6 +1,6 @@
 {
   "homepage": "http://BrianLoveGa.github.io/portfolio-improvements/",
-  "name": "portfolio",
+  "name": "blportfoliosite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

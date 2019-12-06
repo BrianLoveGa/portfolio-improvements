@@ -75,14 +75,12 @@ function App() {
               exact={true}
               component={Home}
             />{" "}
-            <Route path="/portfolio-improvements/">
+            <Route
+              path="/portfolio-improvements/"
               exact={true}
               component={Home}
-            </Route>
-            <Route path="/">
-              exact={true}
-              component={Home}
-            </Route>
+            />{" "}
+            <Route path="/" exact={true} component={Home} />{" "}
             <Route
               path="/portfolio-improvements/about"
               exact={true}
