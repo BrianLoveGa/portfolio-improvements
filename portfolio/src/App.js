@@ -16,7 +16,7 @@ function App() {
     <div className="app">
       <div className="header">
         <h1 className="top">Brian Loveless</h1>
-        <Link className="neon-link" to="/portfolio/secret">
+        <Link className="neon-link" to="/portfolio-improvements/secret">
           <h1 className="neon">OPEN</h1>
         </Link>
       </div>
