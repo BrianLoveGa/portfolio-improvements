@@ -44,7 +44,7 @@ export default class Home extends Component {
         </h3>
         <div className="proj-boxy">
         <h4 className="homeMid2">Explore some of my </h4>
-        <Link className="homeMid2link" to="/portfolio-improvements/projs">
+        <Link className="homeMid2link" to="/portfolio-improvements/projects">
           projects
         </Link>
 
