@@ -78,7 +78,7 @@ body {
   border: 0.2rem solid rgb(199, 217, 250);
   border-radius: 1.5rem;
   text-transform: uppercase;
-  animation: flicker 4.5s infinite alternate;
+  animation: flicker 4.5s infinite alternate; 
   background-color: black;
   font-size: 60px;
 }
