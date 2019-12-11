@@ -7,6 +7,7 @@ export default class Codecamp extends Component {
     return (
       <div className="codecampbox">
         <h2>Free Code Camp Projects here</h2>
+        <div className="pad"></div>
         <h3>
           To keep my skills razor sharp I am going through the free code camp
           site
@@ -126,23 +127,23 @@ export default class Codecamp extends Component {
           </h3>
         </div>
         <div className="proj1_box">
-          <h3>5 th project for responsive web design</h3>
-          <h3>"make a ... page" via code pen</h3>
-          <h3> coming soon!</h3>
-          {/* <img
+          <h3>Final project for responsive web design</h3>
+          <h3>"make a portfolio page" via code pen</h3>
+          <h3> Didn't style much since I have 3 live portfolios already</h3>
+          <img
             class="ccproj1"
-            src={require("./images/projs/codecamp/Bacon.png")}
-            alt="Bacon tech documentation page on code pen"
-          ></img> */}
+            src={require("./images/projs/codecamp/fcc-port.png")}
+            alt="Free code camp portfolio  page on code pen"
+          ></img>
           <h3>
-            Link to completed project page{" "}
-            {/* * <a
-              href="https://codepen.io/B-code-Loveless/pen/LYEEQWV"
+            Link{" "}
+            <a
+              href="https://codepen.io/B-code-Loveless/pen/dyPMweV"
               target="_blank"
               rel="noopener noreferrer"
             >
               avaliable here{" "}
-            </a>{" "}  */}
+            </a>{" "}
             on code pen site. <br />
           </h3>
         </div>

@@ -38,3 +38,9 @@
     margin: 2% auto;
     text-align: center;
 }
+
+@media (max-width:900px){
+    .pad{
+        height:70px;
+    }
+}
