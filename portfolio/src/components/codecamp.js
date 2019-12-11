@@ -107,24 +107,43 @@ export default class Codecamp extends Component {
         <div className="proj1_box">
           <h3>Fourth project for responsive web design</h3>
           <h3>"make a technical documentation page" via code pen</h3>
-          <h3> I'm making it ...</h3>
-          {/* <img
+          <h3> I made it with bacon!</h3>
+          <img
             class="ccproj1"
-            src={require("./images/projs/codecamp/Car-Survey.png")}
-            alt="Car survey form on code pen"
-          ></img> */}
+            src={require("./images/projs/codecamp/Bacon.png")}
+            alt="Bacon tech documentation page on code pen"
+          ></img>
           <h3>
             Link to completed project page{" "}
-            {/* <a
-              href="#"
+            <a
+              href="https://codepen.io/B-code-Loveless/pen/LYEEQWV"
               target="_blank"
               rel="noopener noreferrer"
             >
               avaliable here{" "}
-            </a>{" "} */}
+            </a>{" "}
             on code pen site. <br />
-            Coming Soon ...
-
+          </h3>
+        </div>
+        <div className="proj1_box">
+          <h3>5 th project for responsive web design</h3>
+          <h3>"make a ... page" via code pen</h3>
+          <h3> coming soon!</h3>
+          {/* <img
+            class="ccproj1"
+            src={require("./images/projs/codecamp/Bacon.png")}
+            alt="Bacon tech documentation page on code pen"
+          ></img> */}
+          <h3>
+            Link to completed project page{" "}
+            {/* * <a
+              href="https://codepen.io/B-code-Loveless/pen/LYEEQWV"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              avaliable here{" "}
+            </a>{" "}  */}
+            on code pen site. <br />
           </h3>
         </div>
       </div>
