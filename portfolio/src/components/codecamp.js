@@ -37,6 +37,17 @@ export default class Codecamp extends Component {
             to go there.
           </h3>
         </div>
+        <div className="certs_box">
+          <h2 className="certs_head">completed certificates</h2>
+          <a
+            className="certs_link"
+            href="https://www.freecodecamp.org/certification/fcc834d7277-a991-4083-bda5-6372b69a9f1e/responsive-web-design"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Responsive Web Design
+          </a>
+        </div>
 
         <div className="proj1_box">
           <h3>First project for responsive web design</h3>

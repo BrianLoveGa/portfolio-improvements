@@ -6,41 +6,57 @@
   --silver: rgb(123, 151, 156);
   --white: rgb(241, 241, 247);
 }
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif|Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif|Open+Sans&display=swap");
 
-.codecampbox{
-    margin:4%;
-    background-color: var(--white);
-    color: var(--darkgray);
-    padding:20px;
-    border-radius:10px;
-    font-family: 'Noto Serif', serif;
+.codecampbox {
+  margin: 4%;
+  background-color: var(--white);
+  color: var(--darkgray);
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Noto Serif", serif;
 }
 
-.campbox{
-    border: 10px dotted var(--lightblue);
-    margin:3% 20%;
+.campbox {
+  border: 10px dotted var(--lightblue);
+  margin: 3% 20%;
 }
 
-.proj1_box{
-    background-color: var(--lightgray);
-    text-align: center;
-    border-radius: 50px;
-    padding:10px;
-    margin: 5% auto;
-
+.proj1_box {
+  background-color: var(--lightgray);
+  text-align: center;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 5% auto;
 }
 
-.ccproj1{
-    max-width:80%;
-    height: auto;
-    display: block;
-    margin: 2% auto;
-    text-align: center;
+.ccproj1 {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 2% auto;
+  text-align: center;
 }
 
-@media (max-width:900px){
-    .pad{
-        height:70px;
-    }
+@media (max-width: 900px) {
+  .pad {
+    height: 70px;
+  }
+}
+
+.certs_box {
+  padding: 30px;
+  margin: 5%;
+  border: 3px dashed var(--silver);
+}
+.certs_head{
+    margin:1% auto 10%;
+}
+.certs_link {
+  text-decoration: none;
+  background-color: var(--darkgray);
+  color: var(--lightblue);
+  padding: 20px;
+  border-radius: 30px;
+  
 }
