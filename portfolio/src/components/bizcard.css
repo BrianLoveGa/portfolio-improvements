@@ -139,6 +139,9 @@ img {
     padding: 8px 1px 1px 30px;
     width: 80%;
   }
+  .bislink{
+  padding: 10px;
+  }
 }
 @media (max-width: 380px) {
   .title {
@@ -160,6 +163,14 @@ img {
     margin: 0;
     padding: 15px 1px 1px 15px;
   }
+  .bislink{
+  padding: 1px;
+  margin:3% 0;
+  }
+  .bispic{
+    padding:5px;
+    margin: 0;
+  }
 }
 @media (max-width: 300px) {
   .title {
@@ -168,7 +179,8 @@ img {
   }
 
   .up,
-  .bizlink {
+  .bizlink,
+  .bislink {
     padding: 10px 0;
     font-size: 20px;
     margin: 2% 0;
@@ -180,9 +192,11 @@ img {
     padding: 0;
     width:auto;
   }
-  .bizlink:hover {
-    color: var(--lightblue);
-    background-color: var(--lightblue);
+  .bizlink:hover,
+  .bislink:hover {
+    
+    background-color: var(--lightgray);
     border: none;
   }
+  
 }
