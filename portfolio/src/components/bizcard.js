@@ -3,6 +3,8 @@ import pdf from "./images/Brianres.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import React, { Component } from "react";
+import cert from "./images/GA_CERT.pdf";
+import fcc from "./images/FCC_BL_CERT.pdf";
 
 export default class BizCard extends Component {
   render() {
@@ -177,7 +179,7 @@ export default class BizCard extends Component {
               rel="noopener noreferrer"
             >
               <div className="space">
-                Indeed 
+                Indeed
                 <img
                   className="bizpic"
                   src="https://user-images.githubusercontent.com/49296385/55599327-09f84380-570c-11e9-8ca9-a745e495120c.png"
@@ -185,6 +187,48 @@ export default class BizCard extends Component {
                   width="50px"
                   alt="Indeed logo"
                 ></img>
+              </div>
+            </a>
+          </h2>
+          <h2 className="biss">
+            {" "}
+            <a
+              className="bislink cert"
+              download="Brian Loveless - GA CERT.pdf"
+              href={cert}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="unspace">
+                <img
+                  className="bispic"
+                  src="https://www.drupal.org/files/general-assembly_logo.png"
+                  height="30px"
+                  width="30px"
+                  alt="General Assembly logo"
+                ></img>
+                GA Certificate
+              </div>
+            </a>
+          </h2>
+          <h2 className="biss">
+            {" "}
+            <a
+              className="bislink cert"
+              download="Brian Loveless - FCC CERT.pdf"
+              href={fcc}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="unspace">
+                <img
+                  className="bispic"
+                  src="https://cdn.rawgit.com/Deftwun/e3756a8b518cbb354425/raw/6584db8babd6cbc4ecb35ed36f0d184a506b979e/free-code-camp-logo.svg"
+                  height="30px"
+                  width="30px"
+                  alt="Free Code Camp logo"
+                ></img>
+                F.C.C. Certificate
               </div>
             </a>
           </h2>

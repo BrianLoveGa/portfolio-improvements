@@ -79,6 +79,43 @@ img {
   margin: 0 auto;
 }
 
+.bislink{
+  padding: 50px;
+  margin: 5%;
+  background-color: var(--silver);
+  text-decoration: none;
+  border-radius: 60px;
+  font-size: 25px;
+  display: inline-block;
+  color: black;
+  text-align: justify;
+  border: 2px solid black;
+  font-family: 'Inconsolata', monospace;
+
+}
+
+.unspace{
+   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding:0 10px;
+
+}
+
+.cert{
+  text-decoration: none;
+}
+
+.cert:hover{
+  background-color: var(--lightgray);
+  border: 2px solid white;
+}
+
+
+.bispic{
+  padding:0 30px 5px 0;
+}
+
 @media screen and (max-width: 795px) {
   .biz {
     margin: 1% 5% 1% 10%;
