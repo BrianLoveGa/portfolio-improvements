@@ -22,7 +22,21 @@ function App() {
       </div>
       <h1 className="tagline">Software Engineer / Programmer</h1>
       <div className="instruction">
-        <h2>Pick a page from the 3 green lines on the left</h2>
+        <h2>'tis the season for snow!</h2>
+        <h3>
+          click the holiday link found on my 2nd portfolio page at the bottom
+        </h3>
+        <h3>for more holiday themed fun</h3>
+        <div class="snowflakes" aria-hidden="true">
+          <div class="snowflake">❅</div>
+          <div class="snowflake">❆</div>
+          <div class="snowflake">❅</div>
+          <div class="snowflake">❆</div>
+
+          <div class="snowflake">❆</div>
+          <div class="snowflake">❅</div>
+          <div class="snowflake">❆</div>
+        </div>
       </div>
       <div>
         <nav role="navigation">
@@ -128,7 +142,7 @@ function App() {
             target="_BLANK"
             rel="noopener noreferrer"
           >
-            Started here
+            My first website
           </a>
           <a
             className="footlink"
@@ -136,7 +150,7 @@ function App() {
             target="_BLANK"
             rel="noopener noreferrer"
           >
-            Then 2nd
+            Then 2nd portfolio
           </a>
         </h3>
       </footer>
