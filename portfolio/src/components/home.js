@@ -38,7 +38,7 @@ export default class Home extends Component {
           </div>
         </div>
         <h3>
-          Avaliable for Web-site Creation, Appliacation Development, App
+          Available for Web-site Creation, Application Development, App
           Launches, Site Deployment, UX, UI, Digital Consultation, Page Design,
           and more.
         </h3>
