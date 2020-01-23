@@ -8,7 +8,7 @@ import Proj1Slides from "./proj1slide";
 import Proj2Slides from "./proj2slide";
 import Proj3Slides from "./proj3slide";
 import Proj4Slides from "./proj4slide";
-
+import Proj5Slides from "./proj5slide";
 
 export default class Projects extends Component {
   render() {
@@ -130,6 +130,36 @@ export default class Projects extends Component {
           </div>
           <div className="project">
             <h1> Project 4 </h1>
+            <h2> Bob's Burgers Trivia </h2>
+            <div className="projPic">
+              <Proj5Slides />
+            </div>
+            <p>
+              A fun game to test you knowledge of an amazing show. Play trivia
+              quiz either of general show info or one themed to character
+              knowledge. Either 'quiz' consists of 10 multiple choice questions.
+              There are 5 different ending gifs depending on your score.{" "}
+            </p>
+            <a
+              className="plink"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://brianlovega.github.io/bobs_burgers_trivia/"
+            >
+              Play the trivia game here
+            </a>
+            <br />
+            <a
+              className="plink"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/BrianLoveGa/bobs_burgers_trivia"
+            >
+              Code Repo for Bob's Burgers Trivia here
+            </a>
+          </div>
+          <div className="project">
+            <h1> Project 5 </h1>
             <h2> Cool Links </h2>
             <div className="projPic">
               <Proj4Slides />
