@@ -28,8 +28,39 @@ export default class Projects extends Component {
           to see what I've been up to at Free code camp .com
         </h3>
         <div className="projectsbox">
+          {" "}
           <div className="project">
             <h1> Project 1 </h1>
+            <h2> Bob's Burgers Trivia </h2>
+            <div className="projPic">
+              <Proj5Slides />
+            </div>
+            <p>
+              A fun game to test you knowledge of an amazing show. Play trivia
+              quiz either of general show info or one themed to character
+              knowledge. Either 'quiz' consists of 10 multiple choice questions.
+              There are 5 different ending gifs depending on your score.{" "}
+            </p>
+            <a
+              className="plink"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://brianlovega.github.io/bobs_burgers_trivia/"
+            >
+              Play the trivia game here
+            </a>
+            <br />
+            <a
+              className="plink"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/BrianLoveGa/bobs_burgers_trivia"
+            >
+              Code Repo for Bob's Burgers Trivia here
+            </a>
+          </div>
+          <div className="project">
+            <h1> Project 2 </h1>
             <h2> Simple > Complex </h2>
             <div className="projPic">
               <Proj1Slides />
@@ -60,7 +91,7 @@ export default class Projects extends Component {
             </a>
           </div>
           <div className="project">
-            <h1> Project 2 </h1>
+            <h1> Project 3 </h1>
             <h2> Dang Good Desserts Zone </h2>
             <div className="projPic">
               <Proj2Slides />
@@ -100,7 +131,7 @@ export default class Projects extends Component {
             </a>
           </div>
           <div className="project">
-            <h1> Project 3 </h1>
+            <h1> Project 4 </h1>
             <h2> Rock Paper Scissors Lizard Spock </h2>
             <div className="projPic">
               <Proj3Slides />
@@ -126,36 +157,6 @@ export default class Projects extends Component {
               href="https://github.com/BrianLoveGa/game-rock-paper-scissors"
             >
               Code Repo for RPSLS here
-            </a>
-          </div>
-          <div className="project">
-            <h1> Project 4 </h1>
-            <h2> Bob's Burgers Trivia </h2>
-            <div className="projPic">
-              <Proj5Slides />
-            </div>
-            <p>
-              A fun game to test you knowledge of an amazing show. Play trivia
-              quiz either of general show info or one themed to character
-              knowledge. Either 'quiz' consists of 10 multiple choice questions.
-              There are 5 different ending gifs depending on your score.{" "}
-            </p>
-            <a
-              className="plink"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://brianlovega.github.io/bobs_burgers_trivia/"
-            >
-              Play the trivia game here
-            </a>
-            <br />
-            <a
-              className="plink"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/BrianLoveGa/bobs_burgers_trivia"
-            >
-              Code Repo for Bob's Burgers Trivia here
             </a>
           </div>
           <div className="project">
