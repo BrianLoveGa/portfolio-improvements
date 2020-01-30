@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import React, { Component } from "react";
 import cert from "./images/GA_CERT.pdf";
-import fcc from "./images/FCC_BL_CERT.pdf";
 
 export default class BizCard extends Component {
   render() {
@@ -215,8 +214,7 @@ export default class BizCard extends Component {
             {" "}
             <a
               className="bislink cert"
-              download="Brian Loveless - FCC CERT.pdf"
-              href={fcc}
+              href="https://www.freecodecamp.org/certification/fcc834d7277-a991-4083-bda5-6372b69a9f1e/responsive-web-design"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -228,7 +226,27 @@ export default class BizCard extends Component {
                   width="30px"
                   alt="Free Code Camp logo"
                 ></img>
-                F.C.C. Certificate
+                F.C.C. Web-Dev Certificate
+              </div>
+            </a>
+          </h2>
+          <h2 className="biss">
+            {" "}
+            <a
+              className="bislink cert"
+              href="https://www.freecodecamp.org/certification/fcc834d7277-a991-4083-bda5-6372b69a9f1e/javascript-algorithms-and-data-structures"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="unspace">
+                <img
+                  className="bispic"
+                  src="https://cdn.rawgit.com/Deftwun/e3756a8b518cbb354425/raw/6584db8babd6cbc4ecb35ed36f0d184a506b979e/free-code-camp-logo.svg"
+                  height="30px"
+                  width="30px"
+                  alt="Free Code Camp logo"
+                ></img>
+                F.C.C. JavaScript Certificate
               </div>
             </a>
           </h2>

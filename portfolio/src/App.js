@@ -27,14 +27,14 @@ function App() {
           click the holiday link found on my 2nd portfolio page at the bottom
         </h3>
         <h3>for more holiday themed fun</h3>
-        <div class="snowflakes" aria-hidden="true">
-          <div class="snowflake">❅</div>
-          <div class="snowflake">❆</div>
-          <div class="snowflake">❅</div>
-          <div class="snowflake">❆</div>
-          <div class="snowflake">❆</div>
-          <div class="snowflake">❅</div>
-          <div class="snowflake">❆</div>
+        <div className="snowflakes" aria-hidden="true">
+          <div className="snowflake">❅</div>
+          <div className="snowflake">❆</div>
+          <div className="snowflake">❅</div>
+          <div className="snowflake">❆</div>
+          <div className="snowflake">❆</div>
+          <div className="snowflake">❅</div>
+          <div className="snowflake">❆</div>
         </div>
       </div>
       <div>
