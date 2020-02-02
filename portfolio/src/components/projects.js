@@ -9,6 +9,7 @@ import Proj2Slides from "./proj2slide";
 import Proj3Slides from "./proj3slide";
 import Proj4Slides from "./proj4slide";
 import Proj5Slides from "./proj5slide";
+import Proj6Slides from "./proj6slides";
 
 export default class Projects extends Component {
   render() {
@@ -61,6 +62,36 @@ export default class Projects extends Component {
           </div>
           <div className="project">
             <h1> Project 2 </h1>
+            <h2> Super facts for the 'Big Game'</h2>
+            <div className="projPic">
+              <Proj6Slides />
+            </div>
+            <p>
+              Where I created a page of trivia facts and info tid-bits relating
+              to the 'Big Game' played on groundhog's day. Mobile friendly CSS,
+              Html, and vanilla Javascript to show & hide the lines of info you
+              can impress strangers, annoy friends or inform your family with.
+            </p>
+            <a
+              className="plink"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://brianlovega.github.io/super-fun-facts/"
+            >
+              Visit Super Fun Facts
+            </a>
+            <br />
+            <a
+              className="plink"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/BrianLoveGa/super-fun-facts"
+            >
+              Code Repo for Super Facts
+            </a>
+          </div>
+          <div className="project">
+            <h1> Project 3 </h1>
             <h2> Simple > Complex </h2>
             <div className="projPic">
               <Proj1Slides />
@@ -90,103 +121,103 @@ export default class Projects extends Component {
               Code Repo for Simple > Complex here
             </a>
           </div>
-          <div className="project">
-            <h1> Project 3 </h1>
-            <h2> Dang Good Desserts Zone </h2>
-            <div className="projPic">
-              <Proj2Slides />
-            </div>
-            <p>
-              {" "}
-              A group project where we wanted to create an essy to use site
-              where recipies could be easily shared. Heroku deployed MongoDB
-              backend and a React front-end via Github pages with RESTful routes
-              and full CRUD (create read update delete). MERN stack (mongoose,
-              express, react, node).
-            </p>
-            <a
-              className="plink"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://esin87.github.io/ga-seir-project3-frontend/"
-            >
-              Share a recipie here
-            </a>
-            <br />
-            <a
-              className="plink"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/esin87/ga-seir-project3-frontend"
-            >
-              Front end Code Repo here
-            </a>
-            <a
-              className="plink"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/esin87/ga-seir-project3"
-            >
-              Back end Code Repo here
-            </a>
+        </div>
+        <div className="project">
+          <h1> Project 4 </h1>
+          <h2> Dang Good Desserts Zone </h2>
+          <div className="projPic">
+            <Proj2Slides />
           </div>
-          <div className="project">
-            <h1> Project 4 </h1>
-            <h2> Rock Paper Scissors Lizard Spock </h2>
-            <div className="projPic">
-              <Proj3Slides />
-            </div>
-            <p>
-              A fun game to pass the time. Play rock paper scissors against the
-              computer. Just press the button enter your move and feel the glory
-              of victory, or the sting of defeat.{" "}
-            </p>
-            <a
-              className="plink"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://brianlovega.github.io/game-rock-paper-scissors/"
-            >
-              Play the RPSLS game here
-            </a>
-            <br />
-            <a
-              className="plink"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/BrianLoveGa/game-rock-paper-scissors"
-            >
-              Code Repo for RPSLS here
-            </a>
+          <p>
+            {" "}
+            A group project where we wanted to create an essy to use site where
+            recipies could be easily shared. Heroku deployed MongoDB backend and
+            a React front-end via Github pages with RESTful routes and full CRUD
+            (create read update delete). MERN stack (mongoose, express, react,
+            node).
+          </p>
+          <a
+            className="plink"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://esin87.github.io/ga-seir-project3-frontend/"
+          >
+            Share a recipie here
+          </a>
+          <br />
+          <a
+            className="plink"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/esin87/ga-seir-project3-frontend"
+          >
+            Front end Code Repo here
+          </a>
+          <a
+            className="plink"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/esin87/ga-seir-project3"
+          >
+            Back end Code Repo here
+          </a>
+        </div>
+        <div className="project">
+          <h1> Project 5 </h1>
+          <h2> Rock Paper Scissors Lizard Spock </h2>
+          <div className="projPic">
+            <Proj3Slides />
           </div>
-          <div className="project">
-            <h1> Project 5 </h1>
-            <h2> Cool Links </h2>
-            <div className="projPic">
-              <Proj4Slides />
-            </div>
-            <p>
-              An homage to the old school link pages. A site of pure CSS and
-              HTML . Fun sites for new and old coders alike to check out.{" "}
-            </p>
-            <a
-              className="plink"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://brianlovega.github.io/cool-LinksPage/"
-            >
-              Check it out here
-            </a>
-            <br />
-            <a
-              className="plink"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/BrianLoveGa/cool-LinksPage"
-            >
-              Code Repo avaliable here
-            </a>
+          <p>
+            A fun game to pass the time. Play rock paper scissors against the
+            computer. Just press the button enter your move and feel the glory
+            of victory, or the sting of defeat.{" "}
+          </p>
+          <a
+            className="plink"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://brianlovega.github.io/game-rock-paper-scissors/"
+          >
+            Play the RPSLS game here
+          </a>
+          <br />
+          <a
+            className="plink"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/BrianLoveGa/game-rock-paper-scissors"
+          >
+            Code Repo for RPSLS here
+          </a>
+        </div>
+        <div className="project">
+          <h1> Project 6 </h1>
+          <h2> Cool Links </h2>
+          <div className="projPic">
+            <Proj4Slides />
           </div>
+          <p>
+            An homage to the old school link pages. A site of pure CSS and HTML
+            . Fun sites for new and old coders alike to check out.{" "}
+          </p>
+          <a
+            className="plink"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://brianlovega.github.io/cool-LinksPage/"
+          >
+            Check it out here
+          </a>
+          <br />
+          <a
+            className="plink"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/BrianLoveGa/cool-LinksPage"
+          >
+            Code Repo avaliable here
+          </a>
         </div>
       </div>
     );

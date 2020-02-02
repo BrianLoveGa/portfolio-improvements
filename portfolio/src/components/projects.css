@@ -1,6 +1,6 @@
 /* color scheme */
 
-:root{
+:root {
   --lightblue: rgb(83, 198, 233);
   --darkblue: rgb(30, 30, 202);
   --lightgray: rgb(191, 191, 199);
@@ -9,86 +9,77 @@
   --white: rgb(241, 241, 247);
 }
 
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif|Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif|Open+Sans&display=swap");
 
-.projpage{
+.projpage {
   background-color: var(--silver);
-  padding:4% 2%;
-  font-family: 'Open Sans', sans-serif;
-
+  padding: 4% 2%;
+  font-family: "Open Sans", sans-serif;
 }
 
-.ccprojlink{
+.ccprojlink {
   text-decoration: none;
   background-color: var(--darkblue);
   color: var(--lightgray);
-  padding:10px;
+  padding: 10px;
   border-radius: 10px;
 }
 
 .ccprojlink:hover,
 .ccprojlink:focus,
-.ccprojlink:active{
+.ccprojlink:active {
   background-color: var(--lightgray);
   color: var(--darkblue);
-
 }
 
-.project{
+.project {
   background-color: var(--lightblue);
-  width:99%;
+  width: 99%;
   border-radius: 28px;
-  margin:4% 0;
-  padding:20px 0;
-  font-family: 'Inconsolata', monospace;
-
+  margin: 4% 0;
+  padding: 20px 0;
+  font-family: "Inconsolata", monospace;
 }
 
-
-p{
-  margin:5%;
-  padding:20px;
-  font-family: 'Noto Serif', serif;
+p {
+  margin: 5%;
+  padding: 20px;
+  font-family: "Noto Serif", serif;
 }
 
-.plink{
+.plink {
   text-decoration: none;
   background-color: var(--silver);
-  padding:15px;
-  border:1px solid var(--white);
+  padding: 15px;
+  border: 1px solid var(--white);
   border-radius: 20px;
-  margin:0 2% 5%;
-  color:var(--darkblue);
+  margin: 0 2% 5%;
+  color: var(--darkblue);
   display: inline-block;
-  font-size:20px;
+  font-size: 20px;
 }
 
-
-.plink:hover{
+.plink:hover {
   background-color: var(--darkblue);
-  color:var(--silver);
-  
+  color: var(--silver);
 }
 
-
-
-@media screen and (max-width:410px){
-  .slide{
-    margin:40% 20% 0;
-    color:white;
+@media screen and (max-width: 510px) {
+  .slide {
+    margin: 40% 20% 0;
+    color: white;
   }
-  
-
+  .ccprojlink {
+    padding: 1px;
+  }
 }
 
-
-@media screen and (max-width:200px){
-
-  .projtitle{
-    font-size:20px;
+@media screen and (max-width: 200px) {
+  .projtitle {
+    font-size: 20px;
   }
-  .slide{
-    margin:70% 20% 0;
-    color:white;
+  .slide {
+    margin: 70% 20% 0;
+    color: white;
   }
 }
