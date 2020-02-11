@@ -1,4 +1,4 @@
-import "./projects.css";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -10,6 +10,7 @@ import Proj3Slides from "./proj3slide";
 import Proj4Slides from "./proj4slide";
 import Proj5Slides from "./proj5slide";
 import Proj6Slides from "./proj6slides";
+import "./projects.css";
 
 export default class Projects extends Component {
   render() {

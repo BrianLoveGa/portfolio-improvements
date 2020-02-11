@@ -14,18 +14,21 @@ function App() {
   return (
     <div className="app">
       <div className="header">
-        <h1 className="top">Brian Loveless</h1>
-        <Link className="neon-link" to="/portfolio-improvements/secret">
-          <h1 className="neon">OPEN</h1>
-        </Link>
+        <div className="mobile">
+         
+          <h1 className="top">Brian Loveless</h1>
+        </div>
+        <div className="web">
+          <h1 className="top">Brian Loveless</h1>
+          <Link className="neon-link" to="/portfolio-improvements/secret">
+            <h1 className="neon">OPEN</h1>
+          </Link>
+        </div>
       </div>
-      <h1 className="tagline">Software Engineer / Programmer</h1>
+      <h1 className="tagline">Web Developer </h1>
       <div className="instruction">
         <h2>'tis the season for snow!</h2>
-        <h3>
-          click the holiday link found on my 2nd portfolio page at the bottom
-        </h3>
-        <h3>for more holiday themed fun</h3>
+
         <div className="snowflakes" aria-hidden="true">
           <div className="snowflake">❅</div>
           <div className="snowflake">❆</div>
@@ -133,8 +136,8 @@ function App() {
       </main>
       <footer>
         <h3 className="pinktext">
-          Other Pages Include :{" "}
-          <a
+          B-Love code LLC{" "}
+          {/* <a
             className="footlink"
             href="https://www.brianloveless.com/"
             target="_BLANK"
@@ -149,7 +152,7 @@ function App() {
             rel="noopener noreferrer"
           >
             Then 2nd portfolio
-          </a>
+          </a> */}
         </h3>
       </footer>
     </div>

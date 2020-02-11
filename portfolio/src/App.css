@@ -151,7 +151,8 @@ body {
 }
 /* end snow */
 
-.header {
+.header,
+.web {
   display: inline-flex;
   justify-content: space-around;
   margin: 3% 20% 2% 5%;
@@ -258,6 +259,10 @@ body {
     box-shadow: none;
   }
 }
+
+  .mobile{
+    display:none;
+  }
 
 .link {
   padding: 20px;
@@ -409,9 +414,12 @@ body {
     font-size: 40px;
     padding: 2rem 3rem;
   }
+  .mobile{
+    display:none;
+  }
 }
 
-@media screen and (max-width: 495px) {
+@media screen and (max-width: 595px) {
   .header {
     display: inline-flex;
     flex-direction: column;
@@ -420,5 +428,14 @@ body {
   .neon {
     font-size: 30px;
     padding: 3rem 2rem;
+  }
+
+  .web{
+    display:none;
+  }
+    .mobile,
+    .top{
+    display:block;
+    font-size: 2.2em;
   }
 }
