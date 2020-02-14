@@ -19,18 +19,16 @@
 
 @import url("https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif|Open+Sans&display=swap");
 
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes&display=swap");
 
 body {
   background-color: var(--darkgray);
 }
 
-
 /* snow effect */
 .snowflake {
   color: #fff;
   font-size: 1em;
-  
 }
 
 @-webkit-keyframes snowflakes-fall {
@@ -183,9 +181,18 @@ body {
   color: var(--darkblue);
 }
 
-.pinktext {
+.pinktext a {
   color: hotpink;
+  text-decoration: none;
 }
+
+.pinktext a:hover {
+  background-color: white;
+  color: hotpink;
+  padding: 5px;
+  border-radius: 20px;
+}
+
 .app {
   text-align: center;
 }
@@ -195,7 +202,7 @@ body {
   margin: 1% 10%;
   padding: 2rem 3rem;
   font-size: 90px;
-  font-family: 'Great Vibes', cursive, arial;
+  font-family: "Great Vibes", cursive, arial;
 }
 
 .neon {
@@ -205,7 +212,7 @@ body {
   border: 0.2rem solid rgb(199, 217, 250);
   border-radius: 1.5rem;
   text-transform: uppercase;
-  animation: flicker 4.5s infinite alternate; 
+  animation: flicker 4.5s infinite alternate;
   background-color: black;
   font-size: 60px;
 }
@@ -260,9 +267,9 @@ body {
   }
 }
 
-  .mobile{
-    display:none;
-  }
+.mobile {
+  display: none;
+}
 
 .link {
   padding: 20px;
@@ -274,8 +281,7 @@ body {
   display: inline-block;
   color: var(--darkblue);
   border: 2px solid black;
-  font-family: 'Inconsolata', monospace;
-
+  font-family: "Inconsolata", monospace;
 }
 
 .link:hover {
@@ -392,7 +398,7 @@ body {
 #menu li {
   padding: 7px 1px;
   font-size: 17px;
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 /*
@@ -414,8 +420,8 @@ body {
     font-size: 40px;
     padding: 2rem 3rem;
   }
-  .mobile{
-    display:none;
+  .mobile {
+    display: none;
   }
 }
 
@@ -430,12 +436,12 @@ body {
     padding: 3rem 2rem;
   }
 
-  .web{
-    display:none;
+  .web {
+    display: none;
   }
-    .mobile,
-    .top{
-    display:block;
+  .mobile,
+  .top {
+    display: block;
     font-size: 2.2em;
   }
 }

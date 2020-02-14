@@ -15,7 +15,6 @@ function App() {
     <div className="app">
       <div className="header">
         <div className="mobile">
-         
           <h1 className="top">Brian Loveless</h1>
         </div>
         <div className="web">
@@ -136,23 +135,15 @@ function App() {
       </main>
       <footer>
         <h3 className="pinktext">
-          B-Love code LLC{" "}
-          {/* <a
-            className="footlink"
+          {" "}
+          <a
+            
             href="https://www.brianloveless.com/"
             target="_BLANK"
             rel="noopener noreferrer"
           >
-            My first website
+            B-Love code LLC
           </a>
-          <a
-            className="footlink"
-            href="https://brianloveless-copy.netlify.com/"
-            target="_BLANK"
-            rel="noopener noreferrer"
-          >
-            Then 2nd portfolio
-          </a> */}
         </h3>
       </footer>
     </div>
