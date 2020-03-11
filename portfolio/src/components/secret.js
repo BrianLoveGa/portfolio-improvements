@@ -47,7 +47,7 @@ export default class Secret extends Component {
           <img
             src={require("./images/vday.png")}
             className="responsive"
-            alt="picture of rose galaxy and a picture of a dog holding a flower with text above galaxy photo and between the two"
+            alt="rose galaxy telescope long exposure and a dog (yellow lab) holding a flower in its mouth with text above galaxy professing my love for Michelle"
           />
           <p>
             <a
@@ -66,7 +66,7 @@ export default class Secret extends Component {
           <img
             src={require("./images/dad-bday-card.png")}
             className="responsive"
-            alt="picture of me and dad on couch with our dogs with text above photo : he's a dog gone great dad and sports news from 1950 underneath"
+            alt=" me and dad on couch with our dogs with text above  : he's a dog gone great dad and sports news from 1950 underneath"
           />
           <p>
             <a

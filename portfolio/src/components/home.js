@@ -1,7 +1,7 @@
 import "./home.css";
-import "./about.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "./about.css";
 import "./slideshow.css";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
@@ -17,6 +17,7 @@ import ReactContactForm from "react-mail-form";
 import pdf from "./images/Brianres.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { faCalendarPlusPdf } from "@fortawesome/free-solid-svg-icons";
 import "./projects.css";
 import "./contact.css";
 
@@ -56,18 +57,37 @@ export default class Home extends Component {
           Launches, Site Deployment, UX, UI, Digital Consultation, Page Design,
           and more.
         </h3>
-        <h1 className="cntctcard">
-          <a
-            className="contactRES"
-            download="Brian Loveless - Resume.pdf"
-            href={pdf}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <div className="biznessBoxMain">
+          <h1 className="cntctcard">
+            <a
+              className="contactRES"
+              download="Brian Loveless - Resume.pdf"
+              href={pdf}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <FontAwesomeIcon className="bp" icon={faFilePdf} /> Resume
+            </a>
+          </h1>
+          <h1>
             {" "}
-            <FontAwesomeIcon className="bp" icon={faFilePdf} /> Resume
-          </a>
-        </h1>
+            schedule a chat with me via{" "}
+            <a
+              className="contactRES"
+              href="https://calendly.com/brian-loveless1/15min"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {/* but it's me why can't I refer to my sites? */}
+              Calendly <FontAwesomeIcon
+                className="bp"
+                icon={"calendar-plus"}
+              />{" "}
+              🗓 Link{" "}
+            </a>{" "}
+          </h1>
+        </div>
         <div className="projpage">
           <h1>My Projects </h1>
           <h3>All sites are mobile friendly </h3>
@@ -110,9 +130,8 @@ export default class Home extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/BrianLoveGa/hasura-tutorial"
-              >
-                Code Repo for Pixel Art Live here
-              </a>
+              ></a>
+              Code Repo for Pixel Art Live here
             </div>
             <div className="project">
               <h1> Project 2 </h1>
@@ -389,6 +408,18 @@ export default class Home extends Component {
               {" "}
               <FontAwesomeIcon className="bp" icon={faFilePdf} /> Resume
             </a>
+          </h1>
+          <h3>Or schedule a 15 minute meeting</h3>
+          <h1 className="cntctcard">
+            <a
+              className="contactRES"
+              href="https://calendly.com/brian-loveless1/15min"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Calendly 🗓 {" "}
+            </a>{" "}
           </h1>
         </div>
 
