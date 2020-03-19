@@ -130,8 +130,8 @@ export default class Home extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/BrianLoveGa/hasura-tutorial"
-              ></a>
-              Code Repo for Pixel Art Live here
+              > Code Repo for Pixel Art Live here </a>
+              
             </div>
             <div className="project">
               <h1> Project 2 </h1>
