@@ -24,8 +24,8 @@ function App() {
           </Link>
         </div>
       </div>
-      <h1 className="tagline">Web Developer </h1>
-      <div className="instruction">
+      <h1 className="tagline">Full Stack Software Engineer </h1>
+      {/* <div className="instruction">
         <h2>'tis the season for snow!</h2>
 
         <div className="snowflakes" aria-hidden="true">
@@ -37,7 +37,7 @@ function App() {
           <div className="snowflake">❅</div>
           <div className="snowflake">❆</div>
         </div>
-      </div>
+      </div> */}
       <div>
         <nav role="navigation">
           <div id="menuToggle">
