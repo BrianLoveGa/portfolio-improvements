@@ -16,16 +16,16 @@ export default class About extends Component {
           <div className="intro1">
             <h2 className="h2top">Greetings</h2>
             <p>I am A Junior Software Engineer.</p>
-            <p>Languages: HTML, SQL, CSS, JAVASCRIPT, PYTHON3, BASH, ZSH.</p>
+            <p>Languages: JAVASCRIPT, PYTHON, JAVA, HTML, CSS, SQL.</p>
             <p>
-              Frameworks, Middleware, & Libraries: EXPRESS, NODE, REACT, DJANGO,
+              Frameworks: EXPRESS, NODE, REACT, DJANGO,
               POSTGRESQL, HANDLEBARS, MONGOOSE, MONGO DB, PYGAME, LODASH, CORS,
-              AJAX, NODE-MON, BODY-PARSER, MOCHA, CHAI, SUPER TEST, JEST,
-              ENZYME, REACT HOOKS, I PYTHON .
+              MOCHA, CHAI
             </p>
             <p>
               Skills: FRONT-END, BACK-END, PROGRAMMING, API'S, UX/UI DESIGN,
-              FULL STACK, SITE CREATION, PROJECT LAUNCHES.
+              FULL STACK, SITE CREATION, PROJECT LAUNCHES, VERSION CONTROL,
+              AGILE, GOOGLE CLOUD, AMAZON WEB SERVICES, VIRTUAL MACHINES.
             </p>
             <p>Yes, those are Beatles on my tie.</p>
           </div>

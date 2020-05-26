@@ -2,7 +2,7 @@ import "./contact.css";
 
 import React, { Component } from "react";
 import ReactContactForm from "react-mail-form";
-import pdf from "./images/Brianres.pdf";
+import pdf from "./images/BrianRes.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 

@@ -14,10 +14,9 @@ import Proj5Slides from "./proj5slide";
 import Proj6Slides from "./proj6slides";
 import Proj7Slides from "./proj7slides";
 import ReactContactForm from "react-mail-form";
-import pdf from "./images/Brianres.pdf";
+import pdf from "./images/BrianRes.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { faCalendarPlusPdf } from "@fortawesome/free-solid-svg-icons";
 import "./projects.css";
 import "./contact.css";
 

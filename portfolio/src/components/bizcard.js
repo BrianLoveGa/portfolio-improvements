@@ -1,5 +1,5 @@
 import "./bizcard.css";
-import pdf from "./images/Brianres.pdf";
+import pdf from "./images/BrianRes.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import React, { Component } from "react";
