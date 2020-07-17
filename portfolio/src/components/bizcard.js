@@ -1,5 +1,5 @@
 import "./bizcard.css";
-import pdf from "./images/BrianRes.pdf";
+import pdf from "./images/BLTPRES.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import React, { Component } from "react";
@@ -172,26 +172,6 @@ export default class BizCard extends Component {
           <h2 className="biss">
             {" "}
             <a
-              className="bizlink up"
-              href="https://my.indeed.com/p/brianl-b968ym8"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="space">
-                Indeed
-                <img
-                  className="bizpic"
-                  src="https://user-images.githubusercontent.com/49296385/55599327-09f84380-570c-11e9-8ca9-a745e495120c.png"
-                  height="30px"
-                  width="50px"
-                  alt="Indeed logo"
-                ></img>
-              </div>
-            </a>
-          </h2>
-          <h2 className="biss">
-            {" "}
-            <a
               className="bislink cert"
               download="Brian Loveless - GA CERT.pdf"
               href={cert}
@@ -247,6 +227,26 @@ export default class BizCard extends Component {
                   alt="Free Code Camp logo"
                 ></img>
                 F.C.C. JavaScript Certificate
+              </div>
+            </a>
+          </h2>
+          <h2 className="biss">
+            {" "}
+            <a
+              className="bislink cert"
+              href="https://courses.edx.org/certificates/db55972a3dc0475baaccb11f82c02fa2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="unspace">
+                <img
+                  className="bispic"
+                  src={require("./images/EdXLogo.png")}
+                  height="30px"
+                  width="50px"
+                  alt="edx website logo"
+                ></img>
+                edX.org Java O O P cert
               </div>
             </a>
           </h2>

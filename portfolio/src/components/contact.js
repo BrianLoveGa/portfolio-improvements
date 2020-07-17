@@ -2,7 +2,7 @@ import "./contact.css";
 
 import React, { Component } from "react";
 import ReactContactForm from "react-mail-form";
-import pdf from "./images/BrianRes.pdf";
+import pdf from "./images/BLTPRES.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
@@ -51,24 +51,6 @@ export default class Contact extends Component {
           >
             {" "}
             <FontAwesomeIcon className="bp" icon={faFilePdf} /> Resume
-          </a>
-        </h1>
-        <h3>Or here</h3>{" "}
-        <h1 className="cntctcard">
-          <a
-            className="contactRES"
-            href="https://my.indeed.com/p/brianl-b968ym8"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="bp"
-              src="https://user-images.githubusercontent.com/49296385/55599327-09f84380-570c-11e9-8ca9-a745e495120c.png"
-              height="30px"
-              width="50px"
-              alt="Indeed logo"
-            ></img>
-            Indeed
           </a>
         </h1>
       </div>

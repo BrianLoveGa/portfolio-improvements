@@ -15,12 +15,12 @@ export default class About extends Component {
           />
           <div className="intro1">
             <h2 className="h2top">Greetings</h2>
-            <p>I am A Junior Software Engineer.</p>
+            <p>I am a Full Stack Software Engineer with Talent Path in Atlanta, Ga.</p>
             <p>Languages: JAVASCRIPT, PYTHON, JAVA, HTML, CSS, SQL.</p>
             <p>
-              Frameworks: EXPRESS, NODE, REACT, DJANGO,
-              POSTGRESQL, HANDLEBARS, MONGOOSE, MONGO DB, PYGAME, LODASH, CORS,
-              MOCHA, CHAI
+              Frameworks / Libraries: Express, Node, React, Django,
+              PostgreSQL, SQLite3, Handlebars, Mongoose, Mongo DB, Cors,
+              Mocha, Chai, SpringBoot, Angular, Jest.
             </p>
             <p>
               Skills: FRONT-END, BACK-END, PROGRAMMING, API'S, UX/UI DESIGN,
