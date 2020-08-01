@@ -23,8 +23,8 @@ export default class About extends Component {
               Mocha, Chai, SpringBoot, Angular, Jest.
             </p>
             <p>
-              Skills: FRONT-END, BACK-END, PROGRAMMING, API'S, UX/UI DESIGN,
-              FULL STACK, SITE CREATION, PROJECT LAUNCHES, VERSION CONTROL,
+              Skills: FRONT-END, BACK-END, CLIENT, SERVER, PROGRAMMING, API'S, UX/UI DESIGN,
+              RestFUL, SITE CREATION, PROJECT LAUNCHES, VERSION CONTROL,
               AGILE, GOOGLE CLOUD, AMAZON WEB SERVICES, VIRTUAL MACHINES.
             </p>
             <p>Yes, those are Beatles on my tie.</p>
