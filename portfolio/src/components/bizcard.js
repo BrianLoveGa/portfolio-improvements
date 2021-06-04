@@ -1,5 +1,5 @@
 import "./bizcard.css";
-import pdf from "./images/BLTPRES.pdf";
+import pdf from "./images/BrianRes.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import React, { Component } from "react";
@@ -69,26 +69,7 @@ export default class BizCard extends Component {
               </div>
             </a>
           </h2>
-          <h2 className="biss">
-            {" "}
-            <a
-              className="bizlink up"
-              href="https://profiles.generalassemb.ly/profiles/brian-loveless"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="space">
-                GA Profile
-                <img
-                  className="bizpic"
-                  src="https://www.drupal.org/files/general-assembly_logo.png"
-                  height="30px"
-                  width="30px"
-                  alt="General Assembly logo"
-                ></img>
-              </div>
-            </a>
-          </h2>
+      
           <h2 className="biss">
             {" "}
             <a
@@ -109,26 +90,7 @@ export default class BizCard extends Component {
               </div>
             </a>
           </h2>
-          <h2 className="biss">
-            {" "}
-            <a
-              className="bizlink up"
-              href="https://dev.to/brianlovega"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="space">
-                DEV .To
-                <img
-                  className="bizpic"
-                  src="data:image/png;base64,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"
-                  height="30px"
-                  width="30px"
-                  alt="Dev To logo"
-                ></img>
-              </div>
-            </a>
-          </h2>
+          
           <h2 className="biss">
             {" "}
             <a

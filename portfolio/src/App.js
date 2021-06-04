@@ -74,9 +74,6 @@ function App() {
                   Contact
                 </Link>
               </li>
-
-              <li>stay tuned</li>
-              <li>more coming soon</li>
             </ul>
           </div>
         </nav>
@@ -137,7 +134,6 @@ function App() {
         <h3 className="pinktext">
           {" "}
           <a
-            
             href="https://www.brianloveless.com/"
             target="_BLANK"
             rel="noopener noreferrer"
