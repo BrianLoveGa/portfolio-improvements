@@ -35,6 +35,8 @@ function App() {
           <div className="snowflake">❆</div>
           <div className="snowflake">❆</div>
           <div className="snowflake">❅</div>
+    almost x-mas in july time again
+
           <div className="snowflake">❆</div>
         </div>
       </div> */}
